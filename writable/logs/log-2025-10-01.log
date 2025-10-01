@@ -151,3 +151,619 @@ DEBUG - 2025-10-01 07:36:09 --> Session: Class initialized using 'CodeIgniter\Se
 DEBUG - 2025-10-01 07:36:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 DEBUG - 2025-10-01 07:36:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 DEBUG - 2025-10-01 07:36:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 07:39:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 07:48:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 07:48:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 07:48:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 07:48:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 07:48:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 07:50:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 07:50:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 07:55:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 07:55:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 07:55:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 07:55:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 07:55:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 07:55:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 07:55:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 07:56:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 07:56:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 07:56:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 07:57:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 07:57:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 07:57:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 07:57:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 07:57:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 07:57:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 07:57:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-10-01 07:57:52 --> ErrorException: Undefined variable $routes
+[Method: GET, Route: user/dashboard]
+in APPPATH\Controllers\Dashboard.php on line 10.
+ 1 APPPATH\Controllers\Dashboard.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $routes', 'D:\\ci4_uts_proyek3\\app\\Controllers\\Dashboard.php', 10)
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(315): include_once('D:\\ci4_uts_proyek3\\app\\Controllers\\Dashboard.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\ci4_uts_proyek3\\app\\Controllers\\Dashboard.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Dashboard')
+ 5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Dashboard', true)
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\ci4_uts_proyek3\\public\\index.php')
+DEBUG - 2025-10-01 08:00:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-10-01 08:00:26 --> ErrorException: Undefined variable $routes
+[Method: GET, Route: user/dashboard]
+in APPPATH\Controllers\Dashboard.php on line 10.
+ 1 APPPATH\Controllers\Dashboard.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $routes', 'D:\\ci4_uts_proyek3\\app\\Controllers\\Dashboard.php', 10)
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(315): include_once('D:\\ci4_uts_proyek3\\app\\Controllers\\Dashboard.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\ci4_uts_proyek3\\app\\Controllers\\Dashboard.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Dashboard')
+ 5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Dashboard', true)
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\ci4_uts_proyek3\\public\\index.php')
+DEBUG - 2025-10-01 08:00:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 08:00:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 08:00:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-10-01 08:03:51 --> ParseError: syntax error, unexpected variable "$routes"
+[Method: GET, Route: admin/dashboard]
+in APPPATH\Config\Routes.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(821): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\ci4_uts_proyek3\\public\\index.php')
+DEBUG - 2025-10-01 08:05:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-10-01 08:05:33 --> ErrorException: Undefined variable $routes
+[Method: GET, Route: admin/dashboard]
+in APPPATH\Controllers\Dashboard.php on line 10.
+ 1 APPPATH\Controllers\Dashboard.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $routes', 'D:\\ci4_uts_proyek3\\app\\Controllers\\Dashboard.php', 10)
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(315): include_once('D:\\ci4_uts_proyek3\\app\\Controllers\\Dashboard.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\ci4_uts_proyek3\\app\\Controllers\\Dashboard.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Dashboard')
+ 5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Dashboard', true)
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\ci4_uts_proyek3\\public\\index.php')
+DEBUG - 2025-10-01 08:07:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-10-01 08:07:04 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/dashboard.php"
+[Method: GET, Route: admin/dashboard]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 3 APPPATH\Controllers\Dashboard.php(17): view('admin/dashboard', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->admin()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\ci4_uts_proyek3\\public\\index.php')
+DEBUG - 2025-10-01 08:09:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 08:13:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 08:13:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 08:13:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 08:13:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 08:14:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 08:16:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-10-01 08:16:44 --> Error: Call to a member function links() on null
+[Method: GET, Route: admin/anggota]
+in APPPATH\Views\admin\anggota\index.php on line 58.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/anggota/index', [], true)
+ 4 APPPATH\Controllers\Admin\Anggota.php(11): view('admin/anggota/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Anggota->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Anggota))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\ci4_uts_proyek3\\public\\index.php')
+DEBUG - 2025-10-01 08:19:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-10-01 08:19:31 --> ErrorException: Undefined array key "jumlah_anak"
+[Method: GET, Route: admin/anggota]
+in APPPATH\Views\admin\anggota\index.php on line 46.
+ 1 APPPATH\Views\admin\anggota\index.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jumlah_anak"', 'D:\\ci4_uts_proyek3\\app\\Views\\admin\\anggota\\index.php', 46)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\ci4_uts_proyek3\\app\\Views\\admin\\anggota\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/anggota/index', [], true)
+ 5 APPPATH\Controllers\Admin\Anggota.php(37): view('admin/anggota/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Anggota->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Anggota))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\ci4_uts_proyek3\\public\\index.php')
+DEBUG - 2025-10-01 08:20:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-10-01 08:20:10 --> ErrorException: Undefined array key "jumlah_anak"
+[Method: GET, Route: admin/anggota]
+in APPPATH\Views\admin\anggota\index.php on line 45.
+ 1 APPPATH\Views\admin\anggota\index.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jumlah_anak"', 'D:\\ci4_uts_proyek3\\app\\Views\\admin\\anggota\\index.php', 45)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\ci4_uts_proyek3\\app\\Views\\admin\\anggota\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/anggota/index', [], true)
+ 5 APPPATH\Controllers\Admin\Anggota.php(37): view('admin/anggota/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Anggota->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Anggota))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\ci4_uts_proyek3\\public\\index.php')
+DEBUG - 2025-10-01 08:20:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-10-01 08:20:24 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layout.php"
+[Method: GET, Route: admin/anggota]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout.php')
+ 2 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layout', [], true)
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/anggota/index', [], true)
+ 4 APPPATH\Controllers\Admin\Anggota.php(37): view('admin/anggota/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Anggota->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Anggota))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\ci4_uts_proyek3\\public\\index.php')
+DEBUG - 2025-10-01 08:20:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 08:22:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 08:22:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 08:23:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 08:23:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 08:23:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 08:23:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 08:23:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 08:24:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 08:24:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 08:24:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 08:30:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 08:31:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 08:34:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 08:34:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 08:35:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-10-01 08:35:14 --> CodeIgniter\Exceptions\RuntimeException: View themes, no current section.
+[Method: GET, Route: admin/anggota]
+in SYSTEMPATH\View\View.php on line 430.
+ 1 APPPATH\Views\admin\anggota\index.php(63): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\ci4_uts_proyek3\\app\\Views\\admin\\anggota\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin/anggota/index', [], true)
+ 5 APPPATH\Controllers\Admin\Anggota.php(37): view('admin/anggota/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Anggota->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Anggota))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\ci4_uts_proyek3\\public\\index.php')
+DEBUG - 2025-10-01 08:35:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 08:36:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 08:36:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 08:38:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 08:38:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 08:39:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 08:41:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 08:46:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 08:46:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 08:47:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 08:47:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 08:47:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 08:47:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 08:47:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 08:48:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-10-01 08:48:27 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in D:\ci4_uts_proyek3\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\ci4_uts_proyek3\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `an...', 0)
+#1 D:\ci4_uts_proyek3\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `an...')
+#2 D:\ci4_uts_proyek3\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `an...')
+#3 D:\ci4_uts_proyek3\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `an...', Array, false)
+#4 D:\ci4_uts_proyek3\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\ci4_uts_proyek3\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 D:\ci4_uts_proyek3\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\ci4_uts_proyek3\app\Controllers\Admin\Anggota.php(70): CodeIgniter\Model->insert(Array)
+#8 D:\ci4_uts_proyek3\system\CodeIgniter.php(933): App\Controllers\Admin\Anggota->store()
+#9 D:\ci4_uts_proyek3\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Anggota))
+#10 D:\ci4_uts_proyek3\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\ci4_uts_proyek3\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 D:\ci4_uts_proyek3\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\ci4_uts_proyek3\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 D:\ci4_uts_proyek3\system\rewrite.php(44): require_once('D:\\ci4_uts_proy...')
+#15 {main}
+CRITICAL - 2025-10-01 08:48:27 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '0' for key 'PRIMARY'
+[Method: POST, Route: admin/anggota]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `anggota` (`gelar_depan`, `nama_depan`, `nama_belakang`, `gelar_belakang`, `jabatan`, `status_pernikahan`) VALUES (:gelar_depan:, :nama_depan:, :nama_belakang:, :gelar_belakang:, :jabatan:, :status_pernikahan:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Admin\Anggota.php(70): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Anggota->store()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Anggota))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\ci4_uts_proyek3\\public\\index.php')
+CRITICAL - 2025-10-01 08:48:27 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `anggota` (`gelar_depan`, `nama_depan`, `nama_belakang`, `gelar_belakang`, `jabatan`, `status_pernikahan`) VALUES (\'S.T\', \'Ini\', \'Ketua\', \'M.T\', \'Ketua\', \'Belum Kawin\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `anggota` (`gelar_depan`, `nama_depan`, `nama_belakang`, `gelar_belakang`, `jabatan`, `status_pernikahan`) VALUES (\'S.T\', \'Ini\', \'Ketua\', \'M.T\', \'Ketua\', \'Belum Kawin\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `anggota` (`gelar_depan`, `nama_depan`, `nama_belakang`, `gelar_belakang`, `jabatan`, `status_pernikahan`) VALUES (:gelar_depan:, :nama_depan:, :nama_belakang:, :gelar_belakang:, :jabatan:, :status_pernikahan:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Admin\Anggota.php(70): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Anggota->store()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Anggota))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\ci4_uts_proyek3\\public\\index.php')
+CRITICAL - 2025-10-01 08:48:27 --> [Caused by] mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `anggota` (`gelar_depan`, `nama_depan`, `nama_belakang`, `gelar_belakang`, `jabatan`, `status_pernikahan`) VALUES (\'S.T\', \'Ini\', \'Ketua\', \'M.T\', \'Ketua\', \'Belum Kawin\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `anggota` (`gelar_depan`, `nama_depan`, `nama_belakang`, `gelar_belakang`, `jabatan`, `status_pernikahan`) VALUES (\'S.T\', \'Ini\', \'Ketua\', \'M.T\', \'Ketua\', \'Belum Kawin\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `anggota` (`gelar_depan`, `nama_depan`, `nama_belakang`, `gelar_belakang`, `jabatan`, `status_pernikahan`) VALUES (\'S.T\', \'Ini\', \'Ketua\', \'M.T\', \'Ketua\', \'Belum Kawin\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `anggota` (`gelar_depan`, `nama_depan`, `nama_belakang`, `gelar_belakang`, `jabatan`, `status_pernikahan`) VALUES (:gelar_depan:, :nama_depan:, :nama_belakang:, :gelar_belakang:, :jabatan:, :status_pernikahan:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Admin\Anggota.php(70): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Anggota->store()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Anggota))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('D:\\ci4_uts_proyek3\\public\\index.php')
+DEBUG - 2025-10-01 08:52:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-10-01 08:52:42 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in D:\ci4_uts_proyek3\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\ci4_uts_proyek3\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `an...', 0)
+#1 D:\ci4_uts_proyek3\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `an...')
+#2 D:\ci4_uts_proyek3\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `an...')
+#3 D:\ci4_uts_proyek3\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `an...', Array, false)
+#4 D:\ci4_uts_proyek3\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\ci4_uts_proyek3\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 D:\ci4_uts_proyek3\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\ci4_uts_proyek3\app\Controllers\Admin\Anggota.php(70): CodeIgniter\Model->insert(Array)
+#8 D:\ci4_uts_proyek3\system\CodeIgniter.php(933): App\Controllers\Admin\Anggota->store()
+#9 D:\ci4_uts_proyek3\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Anggota))
+#10 D:\ci4_uts_proyek3\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\ci4_uts_proyek3\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 D:\ci4_uts_proyek3\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\ci4_uts_proyek3\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 D:\ci4_uts_proyek3\system\rewrite.php(44): require_once('D:\\ci4_uts_proy...')
+#15 {main}
+CRITICAL - 2025-10-01 08:52:42 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '0' for key 'PRIMARY'
+[Method: POST, Route: admin/anggota]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `anggota` (`gelar_depan`, `nama_depan`, `nama_belakang`, `gelar_belakang`, `jabatan`, `status_pernikahan`) VALUES (:gelar_depan:, :nama_depan:, :nama_belakang:, :gelar_belakang:, :jabatan:, :status_pernikahan:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Admin\Anggota.php(70): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Anggota->store()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Anggota))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\ci4_uts_proyek3\\public\\index.php')
+CRITICAL - 2025-10-01 08:52:42 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `anggota` (`gelar_depan`, `nama_depan`, `nama_belakang`, `gelar_belakang`, `jabatan`, `status_pernikahan`) VALUES (\'S.T\', \'Ini\', \'Ketua\', \'M.T\', \'Ketua\', \'Belum Kawin\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `anggota` (`gelar_depan`, `nama_depan`, `nama_belakang`, `gelar_belakang`, `jabatan`, `status_pernikahan`) VALUES (\'S.T\', \'Ini\', \'Ketua\', \'M.T\', \'Ketua\', \'Belum Kawin\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `anggota` (`gelar_depan`, `nama_depan`, `nama_belakang`, `gelar_belakang`, `jabatan`, `status_pernikahan`) VALUES (:gelar_depan:, :nama_depan:, :nama_belakang:, :gelar_belakang:, :jabatan:, :status_pernikahan:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Admin\Anggota.php(70): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Anggota->store()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Anggota))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\ci4_uts_proyek3\\public\\index.php')
+CRITICAL - 2025-10-01 08:52:42 --> [Caused by] mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `anggota` (`gelar_depan`, `nama_depan`, `nama_belakang`, `gelar_belakang`, `jabatan`, `status_pernikahan`) VALUES (\'S.T\', \'Ini\', \'Ketua\', \'M.T\', \'Ketua\', \'Belum Kawin\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `anggota` (`gelar_depan`, `nama_depan`, `nama_belakang`, `gelar_belakang`, `jabatan`, `status_pernikahan`) VALUES (\'S.T\', \'Ini\', \'Ketua\', \'M.T\', \'Ketua\', \'Belum Kawin\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `anggota` (`gelar_depan`, `nama_depan`, `nama_belakang`, `gelar_belakang`, `jabatan`, `status_pernikahan`) VALUES (\'S.T\', \'Ini\', \'Ketua\', \'M.T\', \'Ketua\', \'Belum Kawin\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `anggota` (`gelar_depan`, `nama_depan`, `nama_belakang`, `gelar_belakang`, `jabatan`, `status_pernikahan`) VALUES (:gelar_depan:, :nama_depan:, :nama_belakang:, :gelar_belakang:, :jabatan:, :status_pernikahan:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Admin\Anggota.php(70): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Anggota->store()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Anggota))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('D:\\ci4_uts_proyek3\\public\\index.php')
+DEBUG - 2025-10-01 08:52:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 08:53:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-10-01 08:53:04 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in D:\ci4_uts_proyek3\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\ci4_uts_proyek3\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `an...', 0)
+#1 D:\ci4_uts_proyek3\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `an...')
+#2 D:\ci4_uts_proyek3\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `an...')
+#3 D:\ci4_uts_proyek3\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `an...', Array, false)
+#4 D:\ci4_uts_proyek3\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\ci4_uts_proyek3\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 D:\ci4_uts_proyek3\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\ci4_uts_proyek3\app\Controllers\Admin\Anggota.php(70): CodeIgniter\Model->insert(Array)
+#8 D:\ci4_uts_proyek3\system\CodeIgniter.php(933): App\Controllers\Admin\Anggota->store()
+#9 D:\ci4_uts_proyek3\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Anggota))
+#10 D:\ci4_uts_proyek3\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\ci4_uts_proyek3\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 D:\ci4_uts_proyek3\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\ci4_uts_proyek3\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 D:\ci4_uts_proyek3\system\rewrite.php(44): require_once('D:\\ci4_uts_proy...')
+#15 {main}
+CRITICAL - 2025-10-01 08:53:04 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '0' for key 'PRIMARY'
+[Method: POST, Route: admin/anggota]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `anggota` (`gelar_depan`, `nama_depan`, `nama_belakang`, `gelar_belakang`, `jabatan`, `status_pernikahan`) VALUES (:gelar_depan:, :nama_depan:, :nama_belakang:, :gelar_belakang:, :jabatan:, :status_pernikahan:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Admin\Anggota.php(70): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Anggota->store()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Anggota))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\ci4_uts_proyek3\\public\\index.php')
+CRITICAL - 2025-10-01 08:53:04 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `anggota` (`gelar_depan`, `nama_depan`, `nama_belakang`, `gelar_belakang`, `jabatan`, `status_pernikahan`) VALUES (\'S.T\', \'Aku\', \'ini\', \'M.T\', \'Ketua\', \'Belum Kawin\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `anggota` (`gelar_depan`, `nama_depan`, `nama_belakang`, `gelar_belakang`, `jabatan`, `status_pernikahan`) VALUES (\'S.T\', \'Aku\', \'ini\', \'M.T\', \'Ketua\', \'Belum Kawin\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `anggota` (`gelar_depan`, `nama_depan`, `nama_belakang`, `gelar_belakang`, `jabatan`, `status_pernikahan`) VALUES (:gelar_depan:, :nama_depan:, :nama_belakang:, :gelar_belakang:, :jabatan:, :status_pernikahan:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Admin\Anggota.php(70): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Anggota->store()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Anggota))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\ci4_uts_proyek3\\public\\index.php')
+CRITICAL - 2025-10-01 08:53:04 --> [Caused by] mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `anggota` (`gelar_depan`, `nama_depan`, `nama_belakang`, `gelar_belakang`, `jabatan`, `status_pernikahan`) VALUES (\'S.T\', \'Aku\', \'ini\', \'M.T\', \'Ketua\', \'Belum Kawin\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `anggota` (`gelar_depan`, `nama_depan`, `nama_belakang`, `gelar_belakang`, `jabatan`, `status_pernikahan`) VALUES (\'S.T\', \'Aku\', \'ini\', \'M.T\', \'Ketua\', \'Belum Kawin\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `anggota` (`gelar_depan`, `nama_depan`, `nama_belakang`, `gelar_belakang`, `jabatan`, `status_pernikahan`) VALUES (\'S.T\', \'Aku\', \'ini\', \'M.T\', \'Ketua\', \'Belum Kawin\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `anggota` (`gelar_depan`, `nama_depan`, `nama_belakang`, `gelar_belakang`, `jabatan`, `status_pernikahan`) VALUES (:gelar_depan:, :nama_depan:, :nama_belakang:, :gelar_belakang:, :jabatan:, :status_pernikahan:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Admin\Anggota.php(70): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Anggota->store()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Anggota))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('D:\\ci4_uts_proyek3\\public\\index.php')
+DEBUG - 2025-10-01 08:55:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-10-01 08:55:52 --> mysqli_sql_exception: Unknown column 'jumlah_anak' in 'field list' in D:\ci4_uts_proyek3\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\ci4_uts_proyek3\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `an...', 0)
+#1 D:\ci4_uts_proyek3\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `an...')
+#2 D:\ci4_uts_proyek3\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `an...')
+#3 D:\ci4_uts_proyek3\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `an...', Array, false)
+#4 D:\ci4_uts_proyek3\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\ci4_uts_proyek3\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 D:\ci4_uts_proyek3\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\ci4_uts_proyek3\app\Controllers\Admin\Anggota.php(70): CodeIgniter\Model->insert(Array)
+#8 D:\ci4_uts_proyek3\system\CodeIgniter.php(933): App\Controllers\Admin\Anggota->store()
+#9 D:\ci4_uts_proyek3\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Anggota))
+#10 D:\ci4_uts_proyek3\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\ci4_uts_proyek3\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 D:\ci4_uts_proyek3\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\ci4_uts_proyek3\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 D:\ci4_uts_proyek3\system\rewrite.php(44): require_once('D:\\ci4_uts_proy...')
+#15 {main}
+CRITICAL - 2025-10-01 08:55:52 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'jumlah_anak' in 'field list'
+[Method: POST, Route: admin/anggota]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `anggota` (`gelar_depan`, `nama_depan`, `nama_belakang`, `gelar_belakang`, `jabatan`, `status_pernikahan`, `jumlah_anak`) VALUES (:gelar_depan:, :nama_depan:, :nama_belakang:, :gelar_belakang:, :jabatan:, :status_pernikahan:, :jumlah_anak:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Admin\Anggota.php(70): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Anggota->store()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Anggota))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\ci4_uts_proyek3\\public\\index.php')
+CRITICAL - 2025-10-01 08:55:52 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'jumlah_anak' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `anggota` (`gelar_depan`, `nama_depan`, `nama_belakang`, `gelar_belakang`, `jabatan`, `status_pernikahan`, `jumlah_anak`) VALUES (\'S.T\', \'Aku\', \'ini\', \'M.T\', \'Ketua\', \'Belum Kawin\', 0)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `anggota` (`gelar_depan`, `nama_depan`, `nama_belakang`, `gelar_belakang`, `jabatan`, `status_pernikahan`, `jumlah_anak`) VALUES (\'S.T\', \'Aku\', \'ini\', \'M.T\', \'Ketua\', \'Belum Kawin\', 0)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `anggota` (`gelar_depan`, `nama_depan`, `nama_belakang`, `gelar_belakang`, `jabatan`, `status_pernikahan`, `jumlah_anak`) VALUES (:gelar_depan:, :nama_depan:, :nama_belakang:, :gelar_belakang:, :jabatan:, :status_pernikahan:, :jumlah_anak:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Admin\Anggota.php(70): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Anggota->store()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Anggota))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\ci4_uts_proyek3\\public\\index.php')
+CRITICAL - 2025-10-01 08:55:52 --> [Caused by] mysqli_sql_exception: Unknown column 'jumlah_anak' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `anggota` (`gelar_depan`, `nama_depan`, `nama_belakang`, `gelar_belakang`, `jabatan`, `status_pernikahan`, `jumlah_anak`) VALUES (\'S.T\', \'Aku\', \'ini\', \'M.T\', \'Ketua\', \'Belum Kawin\', 0)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `anggota` (`gelar_depan`, `nama_depan`, `nama_belakang`, `gelar_belakang`, `jabatan`, `status_pernikahan`, `jumlah_anak`) VALUES (\'S.T\', \'Aku\', \'ini\', \'M.T\', \'Ketua\', \'Belum Kawin\', 0)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `anggota` (`gelar_depan`, `nama_depan`, `nama_belakang`, `gelar_belakang`, `jabatan`, `status_pernikahan`, `jumlah_anak`) VALUES (\'S.T\', \'Aku\', \'ini\', \'M.T\', \'Ketua\', \'Belum Kawin\', 0)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `anggota` (`gelar_depan`, `nama_depan`, `nama_belakang`, `gelar_belakang`, `jabatan`, `status_pernikahan`, `jumlah_anak`) VALUES (:gelar_depan:, :nama_depan:, :nama_belakang:, :gelar_belakang:, :jabatan:, :status_pernikahan:, :jumlah_anak:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Admin\Anggota.php(70): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Anggota->store()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Anggota))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('D:\\ci4_uts_proyek3\\public\\index.php')
+DEBUG - 2025-10-01 08:56:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-10-01 08:56:07 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in D:\ci4_uts_proyek3\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\ci4_uts_proyek3\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `an...', 0)
+#1 D:\ci4_uts_proyek3\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `an...')
+#2 D:\ci4_uts_proyek3\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `an...')
+#3 D:\ci4_uts_proyek3\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `an...', Array, false)
+#4 D:\ci4_uts_proyek3\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\ci4_uts_proyek3\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 D:\ci4_uts_proyek3\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\ci4_uts_proyek3\app\Controllers\Admin\Anggota.php(70): CodeIgniter\Model->insert(Array)
+#8 D:\ci4_uts_proyek3\system\CodeIgniter.php(933): App\Controllers\Admin\Anggota->store()
+#9 D:\ci4_uts_proyek3\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Anggota))
+#10 D:\ci4_uts_proyek3\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\ci4_uts_proyek3\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 D:\ci4_uts_proyek3\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\ci4_uts_proyek3\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 D:\ci4_uts_proyek3\system\rewrite.php(44): require_once('D:\\ci4_uts_proy...')
+#15 {main}
+CRITICAL - 2025-10-01 08:56:07 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '0' for key 'PRIMARY'
+[Method: POST, Route: admin/anggota]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `anggota` (`gelar_depan`, `nama_depan`, `nama_belakang`, `gelar_belakang`, `jabatan`, `status_pernikahan`) VALUES (:gelar_depan:, :nama_depan:, :nama_belakang:, :gelar_belakang:, :jabatan:, :status_pernikahan:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Admin\Anggota.php(70): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Anggota->store()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Anggota))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\ci4_uts_proyek3\\public\\index.php')
+CRITICAL - 2025-10-01 08:56:07 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `anggota` (`gelar_depan`, `nama_depan`, `nama_belakang`, `gelar_belakang`, `jabatan`, `status_pernikahan`) VALUES (\'S.T\', \'Aku\', \'ini\', \'M.T\', \'Ketua\', \'Belum Kawin\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `anggota` (`gelar_depan`, `nama_depan`, `nama_belakang`, `gelar_belakang`, `jabatan`, `status_pernikahan`) VALUES (\'S.T\', \'Aku\', \'ini\', \'M.T\', \'Ketua\', \'Belum Kawin\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `anggota` (`gelar_depan`, `nama_depan`, `nama_belakang`, `gelar_belakang`, `jabatan`, `status_pernikahan`) VALUES (:gelar_depan:, :nama_depan:, :nama_belakang:, :gelar_belakang:, :jabatan:, :status_pernikahan:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Admin\Anggota.php(70): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Anggota->store()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Anggota))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\ci4_uts_proyek3\\public\\index.php')
+CRITICAL - 2025-10-01 08:56:07 --> [Caused by] mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `anggota` (`gelar_depan`, `nama_depan`, `nama_belakang`, `gelar_belakang`, `jabatan`, `status_pernikahan`) VALUES (\'S.T\', \'Aku\', \'ini\', \'M.T\', \'Ketua\', \'Belum Kawin\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `anggota` (`gelar_depan`, `nama_depan`, `nama_belakang`, `gelar_belakang`, `jabatan`, `status_pernikahan`) VALUES (\'S.T\', \'Aku\', \'ini\', \'M.T\', \'Ketua\', \'Belum Kawin\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `anggota` (`gelar_depan`, `nama_depan`, `nama_belakang`, `gelar_belakang`, `jabatan`, `status_pernikahan`) VALUES (\'S.T\', \'Aku\', \'ini\', \'M.T\', \'Ketua\', \'Belum Kawin\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `anggota` (`gelar_depan`, `nama_depan`, `nama_belakang`, `gelar_belakang`, `jabatan`, `status_pernikahan`) VALUES (:gelar_depan:, :nama_depan:, :nama_belakang:, :gelar_belakang:, :jabatan:, :status_pernikahan:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Admin\Anggota.php(70): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Anggota->store()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Anggota))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('D:\\ci4_uts_proyek3\\public\\index.php')
+DEBUG - 2025-10-01 08:56:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 08:56:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-10-01 08:56:35 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in D:\ci4_uts_proyek3\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\ci4_uts_proyek3\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `an...', 0)
+#1 D:\ci4_uts_proyek3\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `an...')
+#2 D:\ci4_uts_proyek3\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `an...')
+#3 D:\ci4_uts_proyek3\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `an...', Array, false)
+#4 D:\ci4_uts_proyek3\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\ci4_uts_proyek3\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 D:\ci4_uts_proyek3\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\ci4_uts_proyek3\app\Controllers\Admin\Anggota.php(70): CodeIgniter\Model->insert(Array)
+#8 D:\ci4_uts_proyek3\system\CodeIgniter.php(933): App\Controllers\Admin\Anggota->store()
+#9 D:\ci4_uts_proyek3\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Anggota))
+#10 D:\ci4_uts_proyek3\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\ci4_uts_proyek3\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 D:\ci4_uts_proyek3\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\ci4_uts_proyek3\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 D:\ci4_uts_proyek3\system\rewrite.php(44): require_once('D:\\ci4_uts_proy...')
+#15 {main}
+CRITICAL - 2025-10-01 08:56:35 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '0' for key 'PRIMARY'
+[Method: POST, Route: admin/anggota]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `anggota` (`gelar_depan`, `nama_depan`, `nama_belakang`, `gelar_belakang`, `jabatan`, `status_pernikahan`) VALUES (:gelar_depan:, :nama_depan:, :nama_belakang:, :gelar_belakang:, :jabatan:, :status_pernikahan:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Admin\Anggota.php(70): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Anggota->store()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Anggota))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\ci4_uts_proyek3\\public\\index.php')
+CRITICAL - 2025-10-01 08:56:35 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `anggota` (`gelar_depan`, `nama_depan`, `nama_belakang`, `gelar_belakang`, `jabatan`, `status_pernikahan`) VALUES (\'S.T\', \'ini\', \'dpr\', \'M.T\', \'Wakil Ketua\', \'Kawin\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `anggota` (`gelar_depan`, `nama_depan`, `nama_belakang`, `gelar_belakang`, `jabatan`, `status_pernikahan`) VALUES (\'S.T\', \'ini\', \'dpr\', \'M.T\', \'Wakil Ketua\', \'Kawin\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `anggota` (`gelar_depan`, `nama_depan`, `nama_belakang`, `gelar_belakang`, `jabatan`, `status_pernikahan`) VALUES (:gelar_depan:, :nama_depan:, :nama_belakang:, :gelar_belakang:, :jabatan:, :status_pernikahan:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Admin\Anggota.php(70): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Anggota->store()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Anggota))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\ci4_uts_proyek3\\public\\index.php')
+CRITICAL - 2025-10-01 08:56:35 --> [Caused by] mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `anggota` (`gelar_depan`, `nama_depan`, `nama_belakang`, `gelar_belakang`, `jabatan`, `status_pernikahan`) VALUES (\'S.T\', \'ini\', \'dpr\', \'M.T\', \'Wakil Ketua\', \'Kawin\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `anggota` (`gelar_depan`, `nama_depan`, `nama_belakang`, `gelar_belakang`, `jabatan`, `status_pernikahan`) VALUES (\'S.T\', \'ini\', \'dpr\', \'M.T\', \'Wakil Ketua\', \'Kawin\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `anggota` (`gelar_depan`, `nama_depan`, `nama_belakang`, `gelar_belakang`, `jabatan`, `status_pernikahan`) VALUES (\'S.T\', \'ini\', \'dpr\', \'M.T\', \'Wakil Ketua\', \'Kawin\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `anggota` (`gelar_depan`, `nama_depan`, `nama_belakang`, `gelar_belakang`, `jabatan`, `status_pernikahan`) VALUES (:gelar_depan:, :nama_depan:, :nama_belakang:, :gelar_belakang:, :jabatan:, :status_pernikahan:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Admin\Anggota.php(70): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Anggota->store()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Anggota))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('D:\\ci4_uts_proyek3\\public\\index.php')

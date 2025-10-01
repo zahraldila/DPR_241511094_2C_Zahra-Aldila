@@ -12,18 +12,20 @@ class Dashboard extends BaseController
             : redirect()->to('/user/dashboard');
     }
 
-    public function admin()
-    {
-        return view('admin/dashboard', [
-            'title' => 'Admin Dashboard',
-            'menu'  => [
-                ['href'=>'/admin/dashboard','text'=>'Home','id'=>'m-home','icon'=>'bi-house'],
-                ['href'=>'/admin/items','text'=>'Items','id'=>'m-items','icon'=>'bi-grid'],
-                ['href'=>'/admin/settings','text'=>'Settings','id'=>'m-settings','icon'=>'bi-gear'],
-            ],
-        ]);
-    }
-
+    // app/Controllers/Dashboard.php
+public function admin()
+{
+    return view('admin/dashboard', [
+        'title' => 'Admin Dashboard',
+        'menu'  => [
+            ['href'=>'/admin/dashboard','text'=>'Home','id'=>'m-home','icon'=>'bi-house'],
+            // ganti "Items" jadi "Anggota DPR"
+            ['href'=>'/admin/anggota','text'=>'Anggota DPR','id'=>'m-anggota','icon'=>'bi-people'],
+            // (opsional) sisakan settings
+            ['href'=>'/admin/settings','text'=>'Settings','id'=>'m-settings','icon'=>'bi-gear'],
+        ],
+    ]);
+}
 
 
     public function user()
@@ -32,7 +34,6 @@ class Dashboard extends BaseController
             'title' => 'User Dashboard',
             'menu'  => [
                 ['href'=>'/user/dashboard','text'=>'Overview','id'=>'menu-overview'],
-                // tambah menu user di sini nanti
             ],
         ]);
     }
