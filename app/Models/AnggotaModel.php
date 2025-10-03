@@ -37,7 +37,7 @@ class AnggotaModel extends Model
         }
 
         // urutkan nama depan lalu belakang
-        $builder->orderBy('nama_depan', 'ASC')->orderBy('nama_belakang', 'ASC');
+        $builder->orderBy('id_anggota', 'ASC');
 
         return $builder->get()->getResultArray();
     }

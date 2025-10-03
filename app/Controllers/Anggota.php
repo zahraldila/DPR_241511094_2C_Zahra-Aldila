@@ -110,7 +110,7 @@ class Anggota extends BaseController
 
         return view('admin/anggota/edit', [
             'title' => 'Ubah Anggota DPR',
-            'row'   => $row
+            'row'   => $row,
         ]);
     }
 
@@ -118,11 +118,7 @@ class Anggota extends BaseController
     {
         if (session('role') !== 'admin') return redirect()->to('/anggota');
 
-        $data = $this->request->getPost([
-            'gelar_depan','nama_depan','nama_belakang','gelar_belakang',
-            'jabatan','status_pernikahan','jumlah_anak'
-        ]);
-
+        $post = $this->request->getPost();
         $rules = [
             'nama_depan'        => 'required',
             'jabatan'           => 'required',
@@ -130,12 +126,31 @@ class Anggota extends BaseController
             'jumlah_anak'       => 'required|is_natural'
         ];
         if (!$this->validate($rules)) {
-            return redirect()->back()->with('error', 'Form belum valid')->withInput();
+            return redirect()->back()
+                ->withInput()
+                ->with('error','Form belum valid')
+                ->with('validation', $this->validator);
         }
 
-        $this->anggota->update($id, $data);
-        return redirect()->to('/admin/anggota')->with('message','Anggota diubah');
+        $ok = $this->anggota->update($id, [
+            'gelar_depan'       => $post['gelar_depan'] ?? null,
+            'nama_depan'        => $post['nama_depan'],
+            'nama_belakang'     => $post['nama_belakang'] ?? null,
+            'gelar_belakang'    => $post['gelar_belakang'] ?? null,
+            'jabatan'           => $post['jabatan'],
+            'status_pernikahan' => $post['status_pernikahan'],
+            'jumlah_anak'       => (int)($post['jumlah_anak'] ?? 0),
+        ]);
+
+        if (!$ok) {
+            return redirect()->back()
+                ->withInput()
+                ->with('error','Gagal menyimpan: '.implode(', ', $this->anggota->errors()));
+        }
+
+        return redirect()->to('/admin/anggota')->with('message','Anggota berhasil diubah');
     }
+
 
     // ------- DELETE -------
     public function delete($id)

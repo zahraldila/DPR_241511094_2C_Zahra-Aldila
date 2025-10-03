@@ -54,9 +54,10 @@
     <label class="form-label">Status Pernikahan <span class="text-danger">*</span></label>
     <select name="status_pernikahan" class="form-select" required>
       <option value="">-- Pilih --</option>
-      <option <?= old('status_pernikahan')==='Belum Kawin'?'selected':'' ?>>Belum Kawin</option>
-      <option <?= old('status_pernikahan')==='Kawin'?'selected':'' ?>>Kawin</option>
-      <option <?= old('status_pernikahan')==='Cerai'?'selected':'' ?>>Cerai</option>
+      <option value="Belum Kawin" <?= old('status_pernikahan', $row['status_pernikahan'] ?? '')==='Belum Kawin'?'selected':'' ?>>Belum Kawin</option>
+      <option value="Kawin" <?= old('status_pernikahan', $row['status_pernikahan'] ?? '')==='Kawin'?'selected':'' ?>>Kawin</option>
+      <option value="Cerai Hidup" <?= old('status_pernikahan', $row['status_pernikahan'] ?? '')==='Cerai Hidup'?'selected':'' ?>>Cerai Hidup</option>
+      <option value="Cerai Mati" <?= old('status_pernikahan', $row['status_pernikahan'] ?? '')==='Cerai Mati'?'selected':'' ?>>Cerai Mati</option>
     </select>
   </div>
 
