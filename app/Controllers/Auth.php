@@ -2,78 +2,59 @@
 
 namespace App\Controllers;
 
-use App\Controllers\BaseController;
 use App\Models\PenggunaModel;
 
 class Auth extends BaseController
 {
     public function login()
     {
-        return view('auth/login');
+        if (session('isLoggedIn')) {
+            return redirect()->to('/dashboard');
+        }
+        return view('auth/login', ['title' => 'Login']);
     }
 
-    public function attempt()
+    public function attemptLogin()
     {
-        $login    = trim((string)$this->request->getPost('username')); // username/email
-        $password = (string)$this->request->getPost('password');
+        $username = trim((string) $this->request->getPost('username'));
+        $password = (string) $this->request->getPost('password');
 
-        if ($login === '' || $password === '') {
-            return redirect()->back()->with('error', 'Username & password wajib diisi.');
+        if ($username === '' || $password === '') {
+            return redirect()->back()->with('error', 'Username dan password wajib diisi')->withInput();
         }
 
-        $model = new PenggunaModel();
-
-        // cari berdasarkan username ATAU email
-        $user = $model->groupStart()
-                        ->where('username', $login)
-                        ->orWhere('email', $login)
-                      ->groupEnd()
-                      ->first();
+        $user = (new PenggunaModel())
+            ->select('id_pengguna, username, password, role, nama_depan, nama_belakang, email')
+            ->where('username', $username)
+            ->first();
 
         if (!$user) {
-            return redirect()->back()->with('error', 'Akun tidak ditemukan.');
+            return redirect()->back()->with('error', 'Akun tidak ditemukan')->withInput();
         }
 
-        // verifikasi password
-        $stored = (string)$user['password'];
-        $isBcrypt = str_starts_with($stored, '$2y$'); 
-        $valid = $isBcrypt ? password_verify($password, $stored)
-                           : hash_equals($stored, $password);
+        // Deteksi otomatis: kalau password di DB sudah di-hash (bcrypt/argon), pakai password_verify.
+        // Kalau masih plain text, bandingkan biasa.
+        $dbPass = (string) $user['password'];
+        $isHash = preg_match('~^\$2y\$|\$argon2id\$|\$argon2i\$~', $dbPass) === 1;
+
+        $valid = $isHash ? password_verify($password, $dbPass) : hash_equals($dbPass, $password);
 
         if (!$valid) {
-            return redirect()->back()->with('error', 'Kredensial salah.');
+            return redirect()->back()->with('error', 'Password salah')->withInput();
         }
 
-        // buat nama lengkap dari nama_depan + nama_belakang
-        $fullName = trim(($user['nama_depan'] ?? '').' '.($user['nama_belakang'] ?? ''));
-        if ($fullName === '') {
-            $fullName = $user['username'] ?? 'User';
-        }
-
-        // normalisasi role dari DB ke role app
-        $rawRole = strtolower($user['role'] ?? 'user');
-
-        if (in_array($rawRole, ['admin','administrator','superadmin'])) {
-            $role = 'admin';
-        } elseif (in_array($rawRole, ['user','public','member','citizen'])) {
-            $role = 'user';
-        } else {
-            $role = 'user';
-        }
-
-        // set session
+        // Set session
         session()->set([
-            'user_id'    => $user['id_pengguna'],
-            'username'   => $user['username'],
-            'full_name'  => $fullName,
-            'role'       => $role,
             'isLoggedIn' => true,
+            'user_id'    => (int) $user['id_pengguna'],
+            'username'   => $user['username'],
+            'nama'       => trim(($user['nama_depan'] ?? '') . ' ' . ($user['nama_belakang'] ?? '')),
+            'email'      => $user['email'] ?? null,
+            // pastikan kolom role berisi 'admin' atau 'user'/'public'
+            'role'       => strtolower($user['role']),
         ]);
 
-        // redirect sesuai role
-        return ($role === 'admin')
-            ? redirect()->to('/admin/dashboard')
-            : redirect()->to('/user/dashboard');
+        return redirect()->to('/dashboard');
     }
 
     public function logout()

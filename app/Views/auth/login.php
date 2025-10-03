@@ -38,7 +38,8 @@
         <div class="alert alert-danger py-2 small"><?= session()->getFlashdata('error'); ?></div>
       <?php endif; ?>
 
-      <form id="loginForm" method="post" action="/login" novalidate>
+      <form id="loginForm" method="post" action="<?= base_url('login') ?>" novalidate>
+      <?= csrf_field() ?>
         <!-- Username -->
         <div class="mb-3">
           <div class="input-group">
