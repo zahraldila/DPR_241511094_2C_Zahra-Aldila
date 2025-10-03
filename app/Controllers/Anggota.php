@@ -157,7 +157,24 @@ class Anggota extends BaseController
     {
         if (session('role') !== 'admin') return redirect()->to('/anggota');
 
+        // TODO: kalau nanti ada relasi ke penggajian, tangani try/catch di sini
         $this->anggota->delete($id);
+
         return redirect()->to('/admin/anggota')->with('message','Anggota dihapus');
+    }
+
+
+
+    public function destroy($id)
+    {
+        if (session('role') !== 'admin') return redirect()->to('/anggota');
+
+        try {
+            $this->anggota->delete($id);
+            return redirect()->to('/admin/anggota')->with('message','Anggota dihapus');
+        } catch (\Throwable $e) {
+            // contoh: kalau nanti terikat FK penggajian, beri pesan ramah
+            return redirect()->to('/admin/anggota')->with('error','Tidak bisa menghapus: data terpakai.');
+        }
     }
 }

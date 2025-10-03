@@ -44,6 +44,8 @@ $routes->post('admin/anggota/store',          'Anggota::store',  ['filter' => 'r
 $routes->get('admin/anggota/edit/(:num)',     'Anggota::edit/$1',   ['filter' => 'role:admin']);
 $routes->post('admin/anggota/update/(:num)',  'Anggota::update/$1', ['filter' => 'role:admin']);
 $routes->get('admin/anggota/delete/(:num)',   'Anggota::delete/$1', ['filter' => 'role:admin']);
+$routes->post('admin/anggota/delete/(:num)',  'Anggota::destroy/$1', ['filter' => 'role:admin']);
+
 
 // ==============================
 // nanti tambah Komponen Gaji, Penggajian dsb sesuai step berikut
