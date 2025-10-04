@@ -50,6 +50,12 @@ $routes->post('admin/anggota/delete/(:num)',  'Anggota::destroy/$1', ['filter' =
 $routes->get('admin/komponen',        'Komponen::index', ['filter'=>'role:admin']);
 $routes->get('admin/komponen/create', 'Komponen::create', ['filter'=>'role:admin']);
 $routes->post('admin/komponen/store', 'Komponen::store',  ['filter'=>'role:admin']);
+// Komponen Gaji (Edit/Update)
+$routes->get('admin/komponen/edit/(:num)',    'Komponen::edit/$1',   ['filter'=>'role:admin']);
+$routes->post('admin/komponen/update/(:num)', 'Komponen::update/$1', ['filter'=>'role:admin']);
+// Hapus Komponen (POST only)
+$routes->post('admin/komponen/delete/(:num)', 'Komponen::destroy/$1', ['filter'=>'role:admin']);
+
 
 
 /*
