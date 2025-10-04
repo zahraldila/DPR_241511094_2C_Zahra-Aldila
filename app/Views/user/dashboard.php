@@ -1,4 +1,4 @@
-<?= $this->extend('layouts/main') ?>
+<?= $this->extend('layouts/user') ?>
 <?= $this->section('content') ?>
   <h4 class="mb-3">User Dashboard</h4>
   <div class="card">

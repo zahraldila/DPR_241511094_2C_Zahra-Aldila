@@ -24,7 +24,7 @@ $routes->setAutoRoute(false); // lebih aman manual daftarin route
  */
 
 // --- Auth ---
-$routes->get('login',  'Auth::login');
+$routes->get('/',  'Auth::login');
 $routes->post('login', 'Auth::attemptLogin');
 $routes->get('logout', 'Auth::logout');
 
@@ -46,10 +46,10 @@ $routes->post('admin/anggota/update/(:num)',  'Anggota::update/$1', ['filter' =>
 $routes->get('admin/anggota/delete/(:num)',   'Anggota::delete/$1', ['filter' => 'role:admin']);
 $routes->post('admin/anggota/delete/(:num)',  'Anggota::destroy/$1', ['filter' => 'role:admin']);
 
-
-// ==============================
-// nanti tambah Komponen Gaji, Penggajian dsb sesuai step berikut
-// ==============================
+// Komponen Gaji (Admin)
+$routes->get('admin/komponen',        'Komponen::index', ['filter'=>'role:admin']);
+$routes->get('admin/komponen/create', 'Komponen::create', ['filter'=>'role:admin']);
+$routes->post('admin/komponen/store', 'Komponen::store',  ['filter'=>'role:admin']);
 
 
 /*
