@@ -62,6 +62,7 @@ $routes->group('admin', static function($routes){
     $routes->get('penggajian',             'Penggajian::index');   // sudah ada
     $routes->get('penggajian/(:num)/edit', 'Penggajian::edit/$1'); // FORM UBAH
     $routes->post('penggajian/(:num)/update','Penggajian::update/$1'); // SUBMIT UBAH
+    $routes->post('penggajian/(:num)/delete', 'Penggajian::destroy/$1');
 });
 
 

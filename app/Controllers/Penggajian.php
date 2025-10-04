@@ -303,5 +303,23 @@ class Penggajian extends BaseController
             ->with('success', 'Perubahan penggajian disimpan.');
     }
 
+    public function destroy(int $idAnggota)
+    {
+        $db = db_connect();
+
+        // pastikan anggota ada (opsional tapi bagus)
+        $a = $this->anggota->find($idAnggota);
+        if (!$a) {
+            return redirect()->to(site_url('admin/penggajian'))
+                ->with('error', 'Anggota tidak ditemukan.');
+        }
+
+        // hapus semua mapping komponen untuk anggota ini
+        $db->table('penggajian')->where('id_anggota', $idAnggota)->delete();
+
+        return redirect()->to(site_url('admin/penggajian'))
+            ->with('success', 'Data penggajian anggota telah dihapus.');
+    }
+
   
 }
