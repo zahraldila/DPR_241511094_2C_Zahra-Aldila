@@ -17,6 +17,11 @@ function active($pattern){ return url_is($pattern) ? 'active' : ''; }
     <a class="nav-link <?= active('admin/komponen*') ?>" href="<?= base_url('admin/komponen') ?>">
       <i class="bi bi-cash-coin me-2"></i> Komponen Gaji &amp; Tunjangan
     </a>
+
+    <a class="nav-link <?= active('admin/penggajian*') ?>" href="<?= base_url('admin/penggajian/create') ?>">
+      <i class="bi bi-cash-stack me-2"></i> Penggajian
+    </a>
+
   </nav>
 
   <div class="mt-auto pt-4">

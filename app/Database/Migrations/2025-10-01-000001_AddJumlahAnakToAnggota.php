@@ -8,20 +8,29 @@ class AddJumlahAnakToAnggota extends Migration
 {
     public function up()
     {
-        $fields = [
-            'jumlah_anak' => [
-                'type'       => 'INT',
-                'constraint' => 11,
-                'null'       => false,
-                'default'    => 0,
-                'after'      => 'status_pernikahan'
-            ],
-        ];
-        $this->forge->addColumn('anggota', $fields);
+        $db = \Config\Database::connect();
+
+        // CEGAH DUPLIKAT: hanya tambah kalau kolom belum ada
+        if (! $db->fieldExists('jumlah_anak', 'anggota')) {
+            $this->forge->addColumn('anggota', [
+                'jumlah_anak' => [
+                    'type'       => 'INT',
+                    'constraint' => 11,
+                    'null'       => false,
+                    'default'    => 0,
+                    'after'      => 'status_pernikahan',
+                ],
+            ]);
+        }
     }
 
     public function down()
     {
-        $this->forge->dropColumn('anggota', 'jumlah_anak');
+        $db = \Config\Database::connect();
+
+        // Hanya drop kalau memang ada
+        if ($db->fieldExists('jumlah_anak', 'anggota')) {
+            $this->forge->dropColumn('anggota', 'jumlah_anak');
+        }
     }
 }
