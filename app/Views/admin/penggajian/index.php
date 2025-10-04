@@ -1,11 +1,28 @@
 <?= $this->extend('layouts/admin') ?>
 <?= $this->section('content') ?>
 
-<h4 class="mb-3"><?= esc($title ?? 'Daftar Penggajian') ?></h4>
+<h4 class="mb-3">Data Penggajian</h4>
+<div class="d-flex align-items-center justify-content-between mb-3">
+  <form class="d-flex" method="get" action="<?= site_url('admin/penggajian') ?>" style="max-width:520px; width:100%;">
+    <input type="text" class="form-control me-2" name="q"
+           placeholder="Cari"
+           value="<?= esc($q ?? '') ?>">
+
+    <button class="btn btn-outline-secondary me-2" type="submit">Cari</button>
+
+    <?php if (!empty($q)): ?>
+      <a class="btn btn-outline-danger" href="<?= site_url('admin/penggajian') ?>">Reset</a>
+    <?php endif; ?>
+  </form>
+
+  <a class="btn btn-primary ms-3" href="<?= site_url('admin/penggajian/create') ?>">
+    + Tambah Komponen
+  </a>
+</div>
+
 <?php if (session()->getFlashdata('success')): ?>
   <div class="alert alert-success"><?= esc(session('success')) ?></div>
-<?php endif; ?>
-<?php if (session()->getFlashdata('error')): ?>
+<?php endif; if (session()->getFlashdata('error')): ?>
   <div class="alert alert-danger"><?= esc(session('error')) ?></div>
 <?php endif; ?>
 
@@ -21,7 +38,7 @@
         <th>Gelar Belakang</th>
         <th>Jabatan</th>
         <th class="text-end">THP (Bulanan)</th>
-        <th class="text-center" style="width:160px">Aksi</th>
+        <th class="text-center" style="width:140px">Aksi</th>
       </tr>
     </thead>
     <tbody>
@@ -37,9 +54,8 @@
           <td><?= esc($r['jabatan']) ?></td>
           <td class="text-end"><?= number_format($r['thp'], 0, ',', '.') ?></td>
           <td class="text-center">
-            <!-- tombol Tambah akan buka halaman create dengan id_anggota terpilih -->
-            <a class="btn btn-sm btn-primary" href="<?= site_url('admin/penggajian/create?id_anggota='.$r['id_anggota']) ?>">Tambah</a>
-            <!-- nanti kita tambahkan Detail/Ubah/Hapus di step berikut -->
+            <a class="btn btn-warning btn-sm" href="<?= site_url('admin/penggajian/'.$r['id_anggota'].'/edit') ?>">Ubah</a>
+            <!-- Detail/Hapus nanti -->
           </td>
         </tr>
       <?php endforeach; endif; ?>
@@ -48,7 +64,7 @@
 </div>
 
 <small class="text-muted d-block mt-2">
-  THP = (Total Tambahan Bulanan − Total Potongan Bulanan) + Tunjangan Pasangan (jika Kawin) + Tunjangan Anak (maks 2 anak).
+  THP = Total Komponen Bulanan + Tunjangan Pasangan (jika Kawin) + Tunjangan Anak (maks 2 anak).
 </small>
 
 <?= $this->endSection() ?>

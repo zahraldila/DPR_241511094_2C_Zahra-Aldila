@@ -5,7 +5,7 @@
 <div class="d-flex align-items-center justify-content-between mb-3">
   <form class="d-flex" method="get" action="<?= site_url('admin/komponen') ?>" style="max-width:520px; width:100%;">
     <input type="text" class="form-control me-2" name="q"
-           placeholder="Cari ID/nama/kategori/jabatan/nominal/satuan..."
+           placeholder="Cari"
            value="<?= esc($q ?? '') ?>">
 
     <button class="btn btn-outline-secondary me-2" type="submit">Cari</button>

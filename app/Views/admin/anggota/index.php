@@ -1,20 +1,25 @@
 <?= $this->extend('layouts/admin') ?>
 <?= $this->section('content') ?>
 
-<div class="d-flex justify-content-between align-items-center mb-3">
-  <h4 class="mb-0"><?= esc($title) ?></h4>
-  <a class="btn btn-primary" href="<?= base_url('admin/anggota/create') ?>">
-    <i class="bi bi-plus-lg"></i> Tambah Anggota
+
+<h4 class="mb-3">Data Anggota DPR</h4>
+<div class="d-flex align-items-center justify-content-between mb-3">
+  <form class="d-flex" method="get" action="<?= site_url('admin/anggota') ?>" style="max-width:520px; width:100%;">
+    <input type="text" class="form-control me-2" name="q"
+           placeholder="Cari"
+           value="<?= esc($q ?? '') ?>">
+
+    <button class="btn btn-outline-secondary me-2" type="submit">Cari</button>
+
+    <?php if (!empty($q)): ?>
+      <a class="btn btn-outline-danger" href="<?= site_url('admin/anggota') ?>">Reset</a>
+    <?php endif; ?>
+  </form>
+
+  <a class="btn btn-primary ms-3" href="<?= site_url('admin/anggota/create') ?>">
+    + Tambah Komponen
   </a>
 </div>
-
-<form class="row g-2 mb-3" method="get" action="<?= current_url() ?>">
-  <div class="col-sm-8 col-md-6">
-    <input type="text" name="q" class="form-control" value="<?= esc($q ?? '') ?>" placeholder="Cari ID/nama/jabatan...">
-  </div>
-  <div class="col-auto"><button class="btn btn-outline-secondary">Cari</button></div>
-  <?php if (!empty($q)): ?><div class="col-auto"><a class="btn btn-outline-danger" href="<?= base_url('admin/anggota') ?>">Reset</a></div><?php endif; ?>
-</form>
 
 <div class="card">
   <div class="card-body p-0">

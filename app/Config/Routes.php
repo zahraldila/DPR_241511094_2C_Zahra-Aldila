@@ -57,11 +57,14 @@ $routes->post('admin/komponen/update/(:num)', 'Komponen::update/$1', ['filter'=>
 $routes->post('admin/komponen/delete/(:num)', 'Komponen::destroy/$1', ['filter'=>'role:admin']);
 
 
+// app/Config/Routes.php
 $routes->group('admin', static function($routes){
-    $routes->get('penggajian', 'Penggajian::index');      // <= ini yang kurang
-    $routes->get('penggajian/create', 'Penggajian::create');
-    $routes->post('penggajian/store', 'Penggajian::store');
+    $routes->get('penggajian',             'Penggajian::index');   // sudah ada
+    $routes->get('penggajian/(:num)/edit', 'Penggajian::edit/$1'); // FORM UBAH
+    $routes->post('penggajian/(:num)/update','Penggajian::update/$1'); // SUBMIT UBAH
 });
+
+
 
 
 /*
