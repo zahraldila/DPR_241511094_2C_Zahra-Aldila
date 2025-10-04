@@ -57,14 +57,11 @@ $routes->post('admin/komponen/update/(:num)', 'Komponen::update/$1', ['filter'=>
 $routes->post('admin/komponen/delete/(:num)', 'Komponen::destroy/$1', ['filter'=>'role:admin']);
 
 
-$routes->get('admin/penggajian', 'Penggajian::index', ['filter' => 'role:admin']);
-// Penggajian (Tambah dulu)
-$routes->get('admin/penggajian/create', 'Penggajian::create', ['filter'=>'role:admin']);
-$routes->post('admin/penggajian/store',  'Penggajian::store',  ['filter'=>'role:admin']);
-
-// (rute index/detail/edit/delete nanti di commit berikut)
-
-
+$routes->group('admin', static function($routes){
+    $routes->get('penggajian', 'Penggajian::index');      // <= ini yang kurang
+    $routes->get('penggajian/create', 'Penggajian::create');
+    $routes->post('penggajian/store', 'Penggajian::store');
+});
 
 
 /*

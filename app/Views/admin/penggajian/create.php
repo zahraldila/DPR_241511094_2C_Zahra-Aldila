@@ -39,25 +39,35 @@
 <div id="komponenWrap" class="border rounded p-2 mb-3" style="max-height:360px; overflow:auto;">
   <?php if (empty($komponen)): ?>
     <div class="text-muted">Tidak ada komponen untuk jabatan ini.</div>
-  <?php else: foreach($komponen as $k): ?>
-    <?php
-      // kalau kamu pakai penanda 'existing' seperti saran sebelumnya:
-      $already = in_array($k['id_komponen_gaji'], $existing ?? [], true);
-    ?>
-    <div class="form-check">
-      <input class="form-check-input" type="checkbox" name="komponen[]"
-             value="<?= $k['id_komponen_gaji'] ?>" id="k<?= $k['id_komponen_gaji'] ?>"
-             <?= $already ? 'checked disabled' : '' ?>>
-      <label class="form-check-label" for="k<?= $k['id_komponen_gaji'] ?>">
-        <strong>[<?= esc($k['kategori']) ?>]</strong>
-        <?= esc($k['nama_komponen']) ?> —
-        Rp <?= number_format((float)$k['nominal'],0,',','.') ?> / <?= esc($k['satuan']) ?>
-        <span class="text-muted"> (<?= esc($k['jabatan']) ?>)</span>
-        <?php if ($already): ?><span class="badge bg-success ms-2">Sudah terdaftar</span><?php endif; ?>
-      </label>
-    </div>
-  <?php endforeach; endif; ?>
+  <?php else: ?>
+    <?php foreach ($komponen as $k): ?>
+      <?php
+        $already = in_array($k['id_komponen_gaji'], $existing ?? [], true);
+        $cid     = 'k' . (int)$k['id_komponen_gaji'];
+      ?>
+      <div class="form-check">
+        <input
+          class="form-check-input"
+          type="checkbox"
+          name="komponen[]"
+          id="<?= $cid ?>"
+          value="<?= (int)$k['id_komponen_gaji'] ?>"
+          <?= $already ? 'checked disabled' : '' ?>
+        >
+        <label class="form-check-label" for="<?= $cid ?>">
+          <strong>[<?= esc($k['kategori']) ?>]</strong>
+          <?= esc($k['nama_komponen']) ?> —
+          Rp <?= number_format((float)$k['nominal'], 0, ',', '.') ?> / <?= esc($k['satuan']) ?>
+          <span class="text-muted"> (<?= esc($k['jabatan']) ?>)</span>
+          <?php if ($already): ?>
+            <span class="badge bg-success ms-2">Sudah terdaftar</span>
+          <?php endif; ?>
+        </label>
+      </div>
+    <?php endforeach; ?>
+  <?php endif; ?>
 </div>
+
 
 
     <button type="submit" class="btn btn-primary">Simpan Penggajian</button>

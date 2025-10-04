@@ -790,3 +790,900 @@ DEBUG - 2025-10-04 09:27:39 --> Session: Class initialized using 'CodeIgniter\Se
 DEBUG - 2025-10-04 09:28:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 DEBUG - 2025-10-04 09:28:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 DEBUG - 2025-10-04 09:28:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-04 09:31:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-04 09:31:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-04 09:31:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-04 09:31:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-04 09:31:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-04 09:32:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-04 09:32:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-04 09:32:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-04 09:32:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-04 09:41:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-04 09:41:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-04 09:41:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-04 09:41:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-04 09:44:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-04 09:48:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-10-04 09:48:17 --> CodeIgniter\Exceptions\ModelException: "App\Models\PenggajianModel" model class does not specify a Primary Key.
+[Method: GET, Route: admin/penggajian/create]
+in SYSTEMPATH\Model.php on line 703.
+ 1 SYSTEMPATH\Model.php(703): CodeIgniter\Exceptions\ModelException::forNoPrimaryKey('App\\Models\\PenggajianModel')
+ 2 SYSTEMPATH\Model.php(917): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Penggajian.php(51): CodeIgniter\Model->__call('select', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Penggajian->create()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\ci4_uts_proyek3\\public\\index.php')
+DEBUG - 2025-10-04 10:14:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-04 10:14:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-04 10:14:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-04 10:14:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-04 10:14:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-04 10:14:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-04 10:14:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-04 10:14:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-04 10:15:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-04 10:15:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-04 10:16:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-04 10:16:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-04 10:16:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-04 10:16:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-04 10:16:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-04 10:16:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-10-04 10:54:39 --> Error: Class "App\Models\PenggajianModel" not found
+[Method: GET, Route: admin/penggajian/create]
+in APPPATH\Controllers\Penggajian.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Penggajian->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\ci4_uts_proyek3\\public\\index.php')
+DEBUG - 2025-10-04 10:59:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-04 10:59:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-04 10:59:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-04 11:00:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-04 11:00:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-04 11:00:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-04 11:00:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-04 11:03:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-04 11:03:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-10-04 11:03:38 --> mysqli_sql_exception: Table 'uts_proyek3.penggajian_detail' doesn't exist in D:\ci4_uts_proyek3\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\ci4_uts_proyek3\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `a`.`id_...', 0)
+#1 D:\ci4_uts_proyek3\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.`id_...')
+#2 D:\ci4_uts_proyek3\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.`id_...')
+#3 D:\ci4_uts_proyek3\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`id_...', Array, false)
+#4 D:\ci4_uts_proyek3\app\Models\PenggajianListModel.php(67): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\ci4_uts_proyek3\app\Controllers\Penggajian.php(34): App\Models\PenggajianListModel->rekapBulanan(10, 2025, '')
+#6 D:\ci4_uts_proyek3\system\CodeIgniter.php(933): App\Controllers\Penggajian->index()
+#7 D:\ci4_uts_proyek3\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+#8 D:\ci4_uts_proyek3\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\ci4_uts_proyek3\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 D:\ci4_uts_proyek3\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\ci4_uts_proyek3\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 D:\ci4_uts_proyek3\system\rewrite.php(44): require_once('D:\\ci4_uts_proy...')
+#13 {main}
+CRITICAL - 2025-10-04 11:03:38 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'uts_proyek3.penggajian_detail' doesn't exist
+[Method: GET, Route: admin/penggajian]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`id_anggota`, `a`.`gelar_depan`, `a`.`nama_depan`, `a`.`nama_belakang`, `a`.`gelar_belakang`, `a`.`status_pernikahan`, `a`.`jumlah_anak`, `j`.`nama_jabatan`, COALESCE(SUM(CASE WHEN kg.is_potongan = 0 THEN (pd.nominal * CASE LOWER(kg.satuan)
+                    WHEN \'bulanan\' THEN 1
+                    WHEN \'tahunan\' THEN 0.0833333333 /* 1/12 */
+                    WHEN \'mingguan\' THEN 4.33
+                    WHEN \'harian\' THEN 22
+                    ELSE 1
+                END) ELSE 0 END),0) AS total_plus_bulanan, COALESCE(SUM(CASE WHEN kg.is_potongan = 1 THEN (pd.nominal * CASE LOWER(kg.satuan)
+                    WHEN \'bulanan\' THEN 1
+                    WHEN \'tahunan\' THEN 0.0833333333 /* 1/12 */
+                    WHEN \'mingguan\' THEN 4.33
+                    WHEN \'harian\' THEN 22
+                    ELSE 1
+                END) ELSE 0 END),0) AS total_minus_bulanan, COALESCE(SUM(CASE WHEN (kg.is_gaji_pokok = 1 OR kg.kode = \'GAJI_POKOK\')
+                                    THEN (pd.nominal * CASE LOWER(kg.satuan)
+                    WHEN \'bulanan\' THEN 1
+                    WHEN \'tahunan\' THEN 0.0833333333 /* 1/12 */
+                    WHEN \'mingguan\' THEN 4.33
+                    WHEN \'harian\' THEN 22
+                    ELSE 1
+                END) ELSE 0 END),0) AS gaji_pokok_bulanan
+FROM `penggajian` `p`
+LEFT JOIN `penggajian_detail` `pd` ON `pd`.`id_penggajian` = `p`.`id_penggajian`
+LEFT JOIN `komponen_gaji` `kg` ON `kg`.`id_komponen_gaji` = `pd`.`id_komponen_gaji`
+JOIN `anggota` `a` ON `a`.`id_anggota` = `p`.`id_anggota`
+LEFT JOIN `jabatan` `j` ON `j`.`id_jabatan` = `a`.`id_jabatan`
+WHERE `p`.`bulan` = :p.bulan:
+AND `p`.`tahun` = :p.tahun:
+GROUP BY `a`.`id_anggota`
+ORDER BY `a`.`id_anggota` ASC', [...], false)
+ 2 APPPATH\Models\PenggajianListModel.php(67): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Penggajian.php(34): App\Models\PenggajianListModel->rekapBulanan(10, 2025, '')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Penggajian->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\ci4_uts_proyek3\\public\\index.php')
+CRITICAL - 2025-10-04 11:03:38 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'uts_proyek3.penggajian_detail' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.`id_anggota`, `a`.`gelar_depan`, `a`.`nama_depan`, `a`.`nama_belakang`, `a`.`gelar_belakang`, `a`.`status_pernikahan`, `a`.`jumlah_anak`, `j`.`nama_jabatan`, COALESCE(SUM(CASE WHEN kg.is_potongan = 0 THEN (pd.nominal * CASE LOWER(kg.satuan)
+                    WHEN \'bulanan\' THEN 1
+                    WHEN \'tahunan\' THEN 0.0833333333 /* 1/12 */
+                    WHEN \'mingguan\' THEN 4.33
+                    WHEN \'harian\' THEN 22
+                    ELSE 1
+                END) ELSE 0 END),0) AS total_plus_bulanan, COALESCE(SUM(CASE WHEN kg.is_potongan = 1 THEN (pd.nominal * CASE LOWER(kg.satuan)
+                    WHEN \'bulanan\' THEN 1
+                    WHEN \'tahunan\' THEN 0.0833333333 /* 1/12 */
+                    WHEN \'mingguan\' THEN 4.33
+                    WHEN \'harian\' THEN 22
+                    ELSE 1
+                END) ELSE 0 END),0) AS total_minus_bulanan, COALESCE(SUM(CASE WHEN (kg.is_gaji_pokok = 1 OR kg.kode = \'GAJI_POKOK\')
+                                    THEN (pd.nominal * CASE LOWER(kg.satuan)
+                    WHEN \'bulanan\' THEN 1
+                    WHEN \'tahunan\' THEN 0.0833333333 /* 1/12 */
+                    WHEN \'mingguan\' THEN 4.33
+                    WHEN \'harian\' THEN 22
+                    ELSE 1
+                END) ELSE 0 END),0) AS gaji_pokok_bulanan
+FROM `penggajian` `p`
+LEFT JOIN `penggajian_detail` `pd` ON `pd`.`id_penggajian` = `p`.`id_penggajian`
+LEFT JOIN `komponen_gaji` `kg` ON `kg`.`id_komponen_gaji` = `pd`.`id_komponen_gaji`
+JOIN `anggota` `a` ON `a`.`id_anggota` = `p`.`id_anggota`
+LEFT JOIN `jabatan` `j` ON `j`.`id_jabatan` = `a`.`id_jabatan`
+WHERE `p`.`bulan` = 10
+AND `p`.`tahun` = 2025
+GROUP BY `a`.`id_anggota`
+ORDER BY `a`.`id_anggota` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.`id_anggota`, `a`.`gelar_depan`, `a`.`nama_depan`, `a`.`nama_belakang`, `a`.`gelar_belakang`, `a`.`status_pernikahan`, `a`.`jumlah_anak`, `j`.`nama_jabatan`, COALESCE(SUM(CASE WHEN kg.is_potongan = 0 THEN (pd.nominal * CASE LOWER(kg.satuan)
+                    WHEN \'bulanan\' THEN 1
+                    WHEN \'tahunan\' THEN 0.0833333333 /* 1/12 */
+                    WHEN \'mingguan\' THEN 4.33
+                    WHEN \'harian\' THEN 22
+                    ELSE 1
+                END) ELSE 0 END),0) AS total_plus_bulanan, COALESCE(SUM(CASE WHEN kg.is_potongan = 1 THEN (pd.nominal * CASE LOWER(kg.satuan)
+                    WHEN \'bulanan\' THEN 1
+                    WHEN \'tahunan\' THEN 0.0833333333 /* 1/12 */
+                    WHEN \'mingguan\' THEN 4.33
+                    WHEN \'harian\' THEN 22
+                    ELSE 1
+                END) ELSE 0 END),0) AS total_minus_bulanan, COALESCE(SUM(CASE WHEN (kg.is_gaji_pokok = 1 OR kg.kode = \'GAJI_POKOK\')
+                                    THEN (pd.nominal * CASE LOWER(kg.satuan)
+                    WHEN \'bulanan\' THEN 1
+                    WHEN \'tahunan\' THEN 0.0833333333 /* 1/12 */
+                    WHEN \'mingguan\' THEN 4.33
+                    WHEN \'harian\' THEN 22
+                    ELSE 1
+                END) ELSE 0 END),0) AS gaji_pokok_bulanan
+FROM `penggajian` `p`
+LEFT JOIN `penggajian_detail` `pd` ON `pd`.`id_penggajian` = `p`.`id_penggajian`
+LEFT JOIN `komponen_gaji` `kg` ON `kg`.`id_komponen_gaji` = `pd`.`id_komponen_gaji`
+JOIN `anggota` `a` ON `a`.`id_anggota` = `p`.`id_anggota`
+LEFT JOIN `jabatan` `j` ON `j`.`id_jabatan` = `a`.`id_jabatan`
+WHERE `p`.`bulan` = 10
+AND `p`.`tahun` = 2025
+GROUP BY `a`.`id_anggota`
+ORDER BY `a`.`id_anggota` ASC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`id_anggota`, `a`.`gelar_depan`, `a`.`nama_depan`, `a`.`nama_belakang`, `a`.`gelar_belakang`, `a`.`status_pernikahan`, `a`.`jumlah_anak`, `j`.`nama_jabatan`, COALESCE(SUM(CASE WHEN kg.is_potongan = 0 THEN (pd.nominal * CASE LOWER(kg.satuan)
+                    WHEN \'bulanan\' THEN 1
+                    WHEN \'tahunan\' THEN 0.0833333333 /* 1/12 */
+                    WHEN \'mingguan\' THEN 4.33
+                    WHEN \'harian\' THEN 22
+                    ELSE 1
+                END) ELSE 0 END),0) AS total_plus_bulanan, COALESCE(SUM(CASE WHEN kg.is_potongan = 1 THEN (pd.nominal * CASE LOWER(kg.satuan)
+                    WHEN \'bulanan\' THEN 1
+                    WHEN \'tahunan\' THEN 0.0833333333 /* 1/12 */
+                    WHEN \'mingguan\' THEN 4.33
+                    WHEN \'harian\' THEN 22
+                    ELSE 1
+                END) ELSE 0 END),0) AS total_minus_bulanan, COALESCE(SUM(CASE WHEN (kg.is_gaji_pokok = 1 OR kg.kode = \'GAJI_POKOK\')
+                                    THEN (pd.nominal * CASE LOWER(kg.satuan)
+                    WHEN \'bulanan\' THEN 1
+                    WHEN \'tahunan\' THEN 0.0833333333 /* 1/12 */
+                    WHEN \'mingguan\' THEN 4.33
+                    WHEN \'harian\' THEN 22
+                    ELSE 1
+                END) ELSE 0 END),0) AS gaji_pokok_bulanan
+FROM `penggajian` `p`
+LEFT JOIN `penggajian_detail` `pd` ON `pd`.`id_penggajian` = `p`.`id_penggajian`
+LEFT JOIN `komponen_gaji` `kg` ON `kg`.`id_komponen_gaji` = `pd`.`id_komponen_gaji`
+JOIN `anggota` `a` ON `a`.`id_anggota` = `p`.`id_anggota`
+LEFT JOIN `jabatan` `j` ON `j`.`id_jabatan` = `a`.`id_jabatan`
+WHERE `p`.`bulan` = :p.bulan:
+AND `p`.`tahun` = :p.tahun:
+GROUP BY `a`.`id_anggota`
+ORDER BY `a`.`id_anggota` ASC', [...], false)
+ 4 APPPATH\Models\PenggajianListModel.php(67): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Penggajian.php(34): App\Models\PenggajianListModel->rekapBulanan(10, 2025, '')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Penggajian->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\ci4_uts_proyek3\\public\\index.php')
+CRITICAL - 2025-10-04 11:03:38 --> [Caused by] mysqli_sql_exception: Table 'uts_proyek3.penggajian_detail' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `a`.`id_anggota`, `a`.`gelar_depan`, `a`.`nama_depan`, `a`.`nama_belakang`, `a`.`gelar_belakang`, `a`.`status_pernikahan`, `a`.`jumlah_anak`, `j`.`nama_jabatan`, COALESCE(SUM(CASE WHEN kg.is_potongan = 0 THEN (pd.nominal * CASE LOWER(kg.satuan)
+                    WHEN \'bulanan\' THEN 1
+                    WHEN \'tahunan\' THEN 0.0833333333 /* 1/12 */
+                    WHEN \'mingguan\' THEN 4.33
+                    WHEN \'harian\' THEN 22
+                    ELSE 1
+                END) ELSE 0 END),0) AS total_plus_bulanan, COALESCE(SUM(CASE WHEN kg.is_potongan = 1 THEN (pd.nominal * CASE LOWER(kg.satuan)
+                    WHEN \'bulanan\' THEN 1
+                    WHEN \'tahunan\' THEN 0.0833333333 /* 1/12 */
+                    WHEN \'mingguan\' THEN 4.33
+                    WHEN \'harian\' THEN 22
+                    ELSE 1
+                END) ELSE 0 END),0) AS total_minus_bulanan, COALESCE(SUM(CASE WHEN (kg.is_gaji_pokok = 1 OR kg.kode = \'GAJI_POKOK\')
+                                    THEN (pd.nominal * CASE LOWER(kg.satuan)
+                    WHEN \'bulanan\' THEN 1
+                    WHEN \'tahunan\' THEN 0.0833333333 /* 1/12 */
+                    WHEN \'mingguan\' THEN 4.33
+                    WHEN \'harian\' THEN 22
+                    ELSE 1
+                END) ELSE 0 END),0) AS gaji_pokok_bulanan
+FROM `penggajian` `p`
+LEFT JOIN `penggajian_detail` `pd` ON `pd`.`id_penggajian` = `p`.`id_penggajian`
+LEFT JOIN `komponen_gaji` `kg` ON `kg`.`id_komponen_gaji` = `pd`.`id_komponen_gaji`
+JOIN `anggota` `a` ON `a`.`id_anggota` = `p`.`id_anggota`
+LEFT JOIN `jabatan` `j` ON `j`.`id_jabatan` = `a`.`id_jabatan`
+WHERE `p`.`bulan` = 10
+AND `p`.`tahun` = 2025
+GROUP BY `a`.`id_anggota`
+ORDER BY `a`.`id_anggota` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.`id_anggota`, `a`.`gelar_depan`, `a`.`nama_depan`, `a`.`nama_belakang`, `a`.`gelar_belakang`, `a`.`status_pernikahan`, `a`.`jumlah_anak`, `j`.`nama_jabatan`, COALESCE(SUM(CASE WHEN kg.is_potongan = 0 THEN (pd.nominal * CASE LOWER(kg.satuan)
+                    WHEN \'bulanan\' THEN 1
+                    WHEN \'tahunan\' THEN 0.0833333333 /* 1/12 */
+                    WHEN \'mingguan\' THEN 4.33
+                    WHEN \'harian\' THEN 22
+                    ELSE 1
+                END) ELSE 0 END),0) AS total_plus_bulanan, COALESCE(SUM(CASE WHEN kg.is_potongan = 1 THEN (pd.nominal * CASE LOWER(kg.satuan)
+                    WHEN \'bulanan\' THEN 1
+                    WHEN \'tahunan\' THEN 0.0833333333 /* 1/12 */
+                    WHEN \'mingguan\' THEN 4.33
+                    WHEN \'harian\' THEN 22
+                    ELSE 1
+                END) ELSE 0 END),0) AS total_minus_bulanan, COALESCE(SUM(CASE WHEN (kg.is_gaji_pokok = 1 OR kg.kode = \'GAJI_POKOK\')
+                                    THEN (pd.nominal * CASE LOWER(kg.satuan)
+                    WHEN \'bulanan\' THEN 1
+                    WHEN \'tahunan\' THEN 0.0833333333 /* 1/12 */
+                    WHEN \'mingguan\' THEN 4.33
+                    WHEN \'harian\' THEN 22
+                    ELSE 1
+                END) ELSE 0 END),0) AS gaji_pokok_bulanan
+FROM `penggajian` `p`
+LEFT JOIN `penggajian_detail` `pd` ON `pd`.`id_penggajian` = `p`.`id_penggajian`
+LEFT JOIN `komponen_gaji` `kg` ON `kg`.`id_komponen_gaji` = `pd`.`id_komponen_gaji`
+JOIN `anggota` `a` ON `a`.`id_anggota` = `p`.`id_anggota`
+LEFT JOIN `jabatan` `j` ON `j`.`id_jabatan` = `a`.`id_jabatan`
+WHERE `p`.`bulan` = 10
+AND `p`.`tahun` = 2025
+GROUP BY `a`.`id_anggota`
+ORDER BY `a`.`id_anggota` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.`id_anggota`, `a`.`gelar_depan`, `a`.`nama_depan`, `a`.`nama_belakang`, `a`.`gelar_belakang`, `a`.`status_pernikahan`, `a`.`jumlah_anak`, `j`.`nama_jabatan`, COALESCE(SUM(CASE WHEN kg.is_potongan = 0 THEN (pd.nominal * CASE LOWER(kg.satuan)
+                    WHEN \'bulanan\' THEN 1
+                    WHEN \'tahunan\' THEN 0.0833333333 /* 1/12 */
+                    WHEN \'mingguan\' THEN 4.33
+                    WHEN \'harian\' THEN 22
+                    ELSE 1
+                END) ELSE 0 END),0) AS total_plus_bulanan, COALESCE(SUM(CASE WHEN kg.is_potongan = 1 THEN (pd.nominal * CASE LOWER(kg.satuan)
+                    WHEN \'bulanan\' THEN 1
+                    WHEN \'tahunan\' THEN 0.0833333333 /* 1/12 */
+                    WHEN \'mingguan\' THEN 4.33
+                    WHEN \'harian\' THEN 22
+                    ELSE 1
+                END) ELSE 0 END),0) AS total_minus_bulanan, COALESCE(SUM(CASE WHEN (kg.is_gaji_pokok = 1 OR kg.kode = \'GAJI_POKOK\')
+                                    THEN (pd.nominal * CASE LOWER(kg.satuan)
+                    WHEN \'bulanan\' THEN 1
+                    WHEN \'tahunan\' THEN 0.0833333333 /* 1/12 */
+                    WHEN \'mingguan\' THEN 4.33
+                    WHEN \'harian\' THEN 22
+                    ELSE 1
+                END) ELSE 0 END),0) AS gaji_pokok_bulanan
+FROM `penggajian` `p`
+LEFT JOIN `penggajian_detail` `pd` ON `pd`.`id_penggajian` = `p`.`id_penggajian`
+LEFT JOIN `komponen_gaji` `kg` ON `kg`.`id_komponen_gaji` = `pd`.`id_komponen_gaji`
+JOIN `anggota` `a` ON `a`.`id_anggota` = `p`.`id_anggota`
+LEFT JOIN `jabatan` `j` ON `j`.`id_jabatan` = `a`.`id_jabatan`
+WHERE `p`.`bulan` = 10
+AND `p`.`tahun` = 2025
+GROUP BY `a`.`id_anggota`
+ORDER BY `a`.`id_anggota` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`id_anggota`, `a`.`gelar_depan`, `a`.`nama_depan`, `a`.`nama_belakang`, `a`.`gelar_belakang`, `a`.`status_pernikahan`, `a`.`jumlah_anak`, `j`.`nama_jabatan`, COALESCE(SUM(CASE WHEN kg.is_potongan = 0 THEN (pd.nominal * CASE LOWER(kg.satuan)
+                    WHEN \'bulanan\' THEN 1
+                    WHEN \'tahunan\' THEN 0.0833333333 /* 1/12 */
+                    WHEN \'mingguan\' THEN 4.33
+                    WHEN \'harian\' THEN 22
+                    ELSE 1
+                END) ELSE 0 END),0) AS total_plus_bulanan, COALESCE(SUM(CASE WHEN kg.is_potongan = 1 THEN (pd.nominal * CASE LOWER(kg.satuan)
+                    WHEN \'bulanan\' THEN 1
+                    WHEN \'tahunan\' THEN 0.0833333333 /* 1/12 */
+                    WHEN \'mingguan\' THEN 4.33
+                    WHEN \'harian\' THEN 22
+                    ELSE 1
+                END) ELSE 0 END),0) AS total_minus_bulanan, COALESCE(SUM(CASE WHEN (kg.is_gaji_pokok = 1 OR kg.kode = \'GAJI_POKOK\')
+                                    THEN (pd.nominal * CASE LOWER(kg.satuan)
+                    WHEN \'bulanan\' THEN 1
+                    WHEN \'tahunan\' THEN 0.0833333333 /* 1/12 */
+                    WHEN \'mingguan\' THEN 4.33
+                    WHEN \'harian\' THEN 22
+                    ELSE 1
+                END) ELSE 0 END),0) AS gaji_pokok_bulanan
+FROM `penggajian` `p`
+LEFT JOIN `penggajian_detail` `pd` ON `pd`.`id_penggajian` = `p`.`id_penggajian`
+LEFT JOIN `komponen_gaji` `kg` ON `kg`.`id_komponen_gaji` = `pd`.`id_komponen_gaji`
+JOIN `anggota` `a` ON `a`.`id_anggota` = `p`.`id_anggota`
+LEFT JOIN `jabatan` `j` ON `j`.`id_jabatan` = `a`.`id_jabatan`
+WHERE `p`.`bulan` = :p.bulan:
+AND `p`.`tahun` = :p.tahun:
+GROUP BY `a`.`id_anggota`
+ORDER BY `a`.`id_anggota` ASC', [...], false)
+ 5 APPPATH\Models\PenggajianListModel.php(67): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Penggajian.php(34): App\Models\PenggajianListModel->rekapBulanan(10, 2025, '')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Penggajian->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\ci4_uts_proyek3\\public\\index.php')
+CRITICAL - 2025-10-04 11:06:44 --> ErrorException: Undefined property: App\Controllers\Penggajian::$db
+[Method: GET, Route: admin/penggajian]
+in APPPATH\Controllers\Penggajian.php on line 38.
+ 1 APPPATH\Controllers\Penggajian.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Penggajian::$db', 'D:\\ci4_uts_proyek3\\app\\Controllers\\Penggajian.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Penggajian->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\ci4_uts_proyek3\\public\\index.php')
+CRITICAL - 2025-10-04 11:07:18 --> ErrorException: Undefined property: App\Controllers\Penggajian::$db
+[Method: GET, Route: admin/penggajian]
+in APPPATH\Controllers\Penggajian.php on line 38.
+ 1 APPPATH\Controllers\Penggajian.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Penggajian::$db', 'D:\\ci4_uts_proyek3\\app\\Controllers\\Penggajian.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Penggajian->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\ci4_uts_proyek3\\public\\index.php')
+ERROR - 2025-10-04 11:09:30 --> mysqli_sql_exception: Unknown column 'kg.is_potongan' in 'field list' in D:\ci4_uts_proyek3\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\ci4_uts_proyek3\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `a`.`id_...', 0)
+#1 D:\ci4_uts_proyek3\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.`id_...')
+#2 D:\ci4_uts_proyek3\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.`id_...')
+#3 D:\ci4_uts_proyek3\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`id_...', Array, false)
+#4 D:\ci4_uts_proyek3\app\Controllers\Penggajian.php(49): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\ci4_uts_proyek3\system\CodeIgniter.php(933): App\Controllers\Penggajian->index()
+#6 D:\ci4_uts_proyek3\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+#7 D:\ci4_uts_proyek3\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\ci4_uts_proyek3\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 D:\ci4_uts_proyek3\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 D:\ci4_uts_proyek3\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 D:\ci4_uts_proyek3\system\rewrite.php(44): require_once('D:\\ci4_uts_proy...')
+#12 {main}
+CRITICAL - 2025-10-04 11:09:30 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'kg.is_potongan' in 'field list'
+[Method: GET, Route: admin/penggajian]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`id_anggota`, `a`.`gelar_depan`, `a`.`nama_depan`, `a`.`nama_belakang`, `a`.`gelar_belakang`, `a`.`jabatan`, `a`.`status_pernikahan`, `a`.`jumlah_anak`, COALESCE(SUM(CASE WHEN kg.is_potongan = 0 THEN (kg.nominal * CASE LOWER(kg.satuan)
+                    WHEN \'bulanan\' THEN 1
+                    WHEN \'tahunan\' THEN 1.0/12.0
+                    WHEN \'mingguan\' THEN 4.33
+                    WHEN \'harian\' THEN 22
+                    ELSE 1
+                END) ELSE 0 END),0) AS plus_bln, COALESCE(SUM(CASE WHEN kg.is_potongan = 1 THEN (kg.nominal * CASE LOWER(kg.satuan)
+                    WHEN \'bulanan\' THEN 1
+                    WHEN \'tahunan\' THEN 1.0/12.0
+                    WHEN \'mingguan\' THEN 4.33
+                    WHEN \'harian\' THEN 22
+                    ELSE 1
+                END) ELSE 0 END),0) AS minus_bln, COALESCE(SUM(CASE WHEN (kg.is_gaji_pokok = 1 OR kg.kode=\'GAJI_POKOK\') THEN (kg.nominal * CASE LOWER(kg.satuan)
+                    WHEN \'bulanan\' THEN 1
+                    WHEN \'tahunan\' THEN 1.0/12.0
+                    WHEN \'mingguan\' THEN 4.33
+                    WHEN \'harian\' THEN 22
+                    ELSE 1
+                END) ELSE 0 END),0) AS gaji_pokok_bln
+FROM `anggota` `a`
+LEFT JOIN `penggajian` `pg` ON `pg`.`id_anggota` = `a`.`id_anggota`
+LEFT JOIN `komponen_gaji` `kg` ON `kg`.`id_komponen_gaji` = `pg`.`id_komponen_gaji`
+GROUP BY `a`.`id_anggota`
+ORDER BY `a`.`id_anggota` ASC', [], false)
+ 2 APPPATH\Controllers\Penggajian.php(49): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Penggajian->index()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\ci4_uts_proyek3\\public\\index.php')
+CRITICAL - 2025-10-04 11:09:30 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'kg.is_potongan' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.`id_anggota`, `a`.`gelar_depan`, `a`.`nama_depan`, `a`.`nama_belakang`, `a`.`gelar_belakang`, `a`.`jabatan`, `a`.`status_pernikahan`, `a`.`jumlah_anak`, COALESCE(SUM(CASE WHEN kg.is_potongan = 0 THEN (kg.nominal * CASE LOWER(kg.satuan)
+                    WHEN \'bulanan\' THEN 1
+                    WHEN \'tahunan\' THEN 1.0/12.0
+                    WHEN \'mingguan\' THEN 4.33
+                    WHEN \'harian\' THEN 22
+                    ELSE 1
+                END) ELSE 0 END),0) AS plus_bln, COALESCE(SUM(CASE WHEN kg.is_potongan = 1 THEN (kg.nominal * CASE LOWER(kg.satuan)
+                    WHEN \'bulanan\' THEN 1
+                    WHEN \'tahunan\' THEN 1.0/12.0
+                    WHEN \'mingguan\' THEN 4.33
+                    WHEN \'harian\' THEN 22
+                    ELSE 1
+                END) ELSE 0 END),0) AS minus_bln, COALESCE(SUM(CASE WHEN (kg.is_gaji_pokok = 1 OR kg.kode=\'GAJI_POKOK\') THEN (kg.nominal * CASE LOWER(kg.satuan)
+                    WHEN \'bulanan\' THEN 1
+                    WHEN \'tahunan\' THEN 1.0/12.0
+                    WHEN \'mingguan\' THEN 4.33
+                    WHEN \'harian\' THEN 22
+                    ELSE 1
+                END) ELSE 0 END),0) AS gaji_pokok_bln
+FROM `anggota` `a`
+LEFT JOIN `penggajian` `pg` ON `pg`.`id_anggota` = `a`.`id_anggota`
+LEFT JOIN `komponen_gaji` `kg` ON `kg`.`id_komponen_gaji` = `pg`.`id_komponen_gaji`
+GROUP BY `a`.`id_anggota`
+ORDER BY `a`.`id_anggota` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.`id_anggota`, `a`.`gelar_depan`, `a`.`nama_depan`, `a`.`nama_belakang`, `a`.`gelar_belakang`, `a`.`jabatan`, `a`.`status_pernikahan`, `a`.`jumlah_anak`, COALESCE(SUM(CASE WHEN kg.is_potongan = 0 THEN (kg.nominal * CASE LOWER(kg.satuan)
+                    WHEN \'bulanan\' THEN 1
+                    WHEN \'tahunan\' THEN 1.0/12.0
+                    WHEN \'mingguan\' THEN 4.33
+                    WHEN \'harian\' THEN 22
+                    ELSE 1
+                END) ELSE 0 END),0) AS plus_bln, COALESCE(SUM(CASE WHEN kg.is_potongan = 1 THEN (kg.nominal * CASE LOWER(kg.satuan)
+                    WHEN \'bulanan\' THEN 1
+                    WHEN \'tahunan\' THEN 1.0/12.0
+                    WHEN \'mingguan\' THEN 4.33
+                    WHEN \'harian\' THEN 22
+                    ELSE 1
+                END) ELSE 0 END),0) AS minus_bln, COALESCE(SUM(CASE WHEN (kg.is_gaji_pokok = 1 OR kg.kode=\'GAJI_POKOK\') THEN (kg.nominal * CASE LOWER(kg.satuan)
+                    WHEN \'bulanan\' THEN 1
+                    WHEN \'tahunan\' THEN 1.0/12.0
+                    WHEN \'mingguan\' THEN 4.33
+                    WHEN \'harian\' THEN 22
+                    ELSE 1
+                END) ELSE 0 END),0) AS gaji_pokok_bln
+FROM `anggota` `a`
+LEFT JOIN `penggajian` `pg` ON `pg`.`id_anggota` = `a`.`id_anggota`
+LEFT JOIN `komponen_gaji` `kg` ON `kg`.`id_komponen_gaji` = `pg`.`id_komponen_gaji`
+GROUP BY `a`.`id_anggota`
+ORDER BY `a`.`id_anggota` ASC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`id_anggota`, `a`.`gelar_depan`, `a`.`nama_depan`, `a`.`nama_belakang`, `a`.`gelar_belakang`, `a`.`jabatan`, `a`.`status_pernikahan`, `a`.`jumlah_anak`, COALESCE(SUM(CASE WHEN kg.is_potongan = 0 THEN (kg.nominal * CASE LOWER(kg.satuan)
+                    WHEN \'bulanan\' THEN 1
+                    WHEN \'tahunan\' THEN 1.0/12.0
+                    WHEN \'mingguan\' THEN 4.33
+                    WHEN \'harian\' THEN 22
+                    ELSE 1
+                END) ELSE 0 END),0) AS plus_bln, COALESCE(SUM(CASE WHEN kg.is_potongan = 1 THEN (kg.nominal * CASE LOWER(kg.satuan)
+                    WHEN \'bulanan\' THEN 1
+                    WHEN \'tahunan\' THEN 1.0/12.0
+                    WHEN \'mingguan\' THEN 4.33
+                    WHEN \'harian\' THEN 22
+                    ELSE 1
+                END) ELSE 0 END),0) AS minus_bln, COALESCE(SUM(CASE WHEN (kg.is_gaji_pokok = 1 OR kg.kode=\'GAJI_POKOK\') THEN (kg.nominal * CASE LOWER(kg.satuan)
+                    WHEN \'bulanan\' THEN 1
+                    WHEN \'tahunan\' THEN 1.0/12.0
+                    WHEN \'mingguan\' THEN 4.33
+                    WHEN \'harian\' THEN 22
+                    ELSE 1
+                END) ELSE 0 END),0) AS gaji_pokok_bln
+FROM `anggota` `a`
+LEFT JOIN `penggajian` `pg` ON `pg`.`id_anggota` = `a`.`id_anggota`
+LEFT JOIN `komponen_gaji` `kg` ON `kg`.`id_komponen_gaji` = `pg`.`id_komponen_gaji`
+GROUP BY `a`.`id_anggota`
+ORDER BY `a`.`id_anggota` ASC', [], false)
+ 4 APPPATH\Controllers\Penggajian.php(49): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Penggajian->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\ci4_uts_proyek3\\public\\index.php')
+CRITICAL - 2025-10-04 11:09:30 --> [Caused by] mysqli_sql_exception: Unknown column 'kg.is_potongan' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `a`.`id_anggota`, `a`.`gelar_depan`, `a`.`nama_depan`, `a`.`nama_belakang`, `a`.`gelar_belakang`, `a`.`jabatan`, `a`.`status_pernikahan`, `a`.`jumlah_anak`, COALESCE(SUM(CASE WHEN kg.is_potongan = 0 THEN (kg.nominal * CASE LOWER(kg.satuan)
+                    WHEN \'bulanan\' THEN 1
+                    WHEN \'tahunan\' THEN 1.0/12.0
+                    WHEN \'mingguan\' THEN 4.33
+                    WHEN \'harian\' THEN 22
+                    ELSE 1
+                END) ELSE 0 END),0) AS plus_bln, COALESCE(SUM(CASE WHEN kg.is_potongan = 1 THEN (kg.nominal * CASE LOWER(kg.satuan)
+                    WHEN \'bulanan\' THEN 1
+                    WHEN \'tahunan\' THEN 1.0/12.0
+                    WHEN \'mingguan\' THEN 4.33
+                    WHEN \'harian\' THEN 22
+                    ELSE 1
+                END) ELSE 0 END),0) AS minus_bln, COALESCE(SUM(CASE WHEN (kg.is_gaji_pokok = 1 OR kg.kode=\'GAJI_POKOK\') THEN (kg.nominal * CASE LOWER(kg.satuan)
+                    WHEN \'bulanan\' THEN 1
+                    WHEN \'tahunan\' THEN 1.0/12.0
+                    WHEN \'mingguan\' THEN 4.33
+                    WHEN \'harian\' THEN 22
+                    ELSE 1
+                END) ELSE 0 END),0) AS gaji_pokok_bln
+FROM `anggota` `a`
+LEFT JOIN `penggajian` `pg` ON `pg`.`id_anggota` = `a`.`id_anggota`
+LEFT JOIN `komponen_gaji` `kg` ON `kg`.`id_komponen_gaji` = `pg`.`id_komponen_gaji`
+GROUP BY `a`.`id_anggota`
+ORDER BY `a`.`id_anggota` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.`id_anggota`, `a`.`gelar_depan`, `a`.`nama_depan`, `a`.`nama_belakang`, `a`.`gelar_belakang`, `a`.`jabatan`, `a`.`status_pernikahan`, `a`.`jumlah_anak`, COALESCE(SUM(CASE WHEN kg.is_potongan = 0 THEN (kg.nominal * CASE LOWER(kg.satuan)
+                    WHEN \'bulanan\' THEN 1
+                    WHEN \'tahunan\' THEN 1.0/12.0
+                    WHEN \'mingguan\' THEN 4.33
+                    WHEN \'harian\' THEN 22
+                    ELSE 1
+                END) ELSE 0 END),0) AS plus_bln, COALESCE(SUM(CASE WHEN kg.is_potongan = 1 THEN (kg.nominal * CASE LOWER(kg.satuan)
+                    WHEN \'bulanan\' THEN 1
+                    WHEN \'tahunan\' THEN 1.0/12.0
+                    WHEN \'mingguan\' THEN 4.33
+                    WHEN \'harian\' THEN 22
+                    ELSE 1
+                END) ELSE 0 END),0) AS minus_bln, COALESCE(SUM(CASE WHEN (kg.is_gaji_pokok = 1 OR kg.kode=\'GAJI_POKOK\') THEN (kg.nominal * CASE LOWER(kg.satuan)
+                    WHEN \'bulanan\' THEN 1
+                    WHEN \'tahunan\' THEN 1.0/12.0
+                    WHEN \'mingguan\' THEN 4.33
+                    WHEN \'harian\' THEN 22
+                    ELSE 1
+                END) ELSE 0 END),0) AS gaji_pokok_bln
+FROM `anggota` `a`
+LEFT JOIN `penggajian` `pg` ON `pg`.`id_anggota` = `a`.`id_anggota`
+LEFT JOIN `komponen_gaji` `kg` ON `kg`.`id_komponen_gaji` = `pg`.`id_komponen_gaji`
+GROUP BY `a`.`id_anggota`
+ORDER BY `a`.`id_anggota` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.`id_anggota`, `a`.`gelar_depan`, `a`.`nama_depan`, `a`.`nama_belakang`, `a`.`gelar_belakang`, `a`.`jabatan`, `a`.`status_pernikahan`, `a`.`jumlah_anak`, COALESCE(SUM(CASE WHEN kg.is_potongan = 0 THEN (kg.nominal * CASE LOWER(kg.satuan)
+                    WHEN \'bulanan\' THEN 1
+                    WHEN \'tahunan\' THEN 1.0/12.0
+                    WHEN \'mingguan\' THEN 4.33
+                    WHEN \'harian\' THEN 22
+                    ELSE 1
+                END) ELSE 0 END),0) AS plus_bln, COALESCE(SUM(CASE WHEN kg.is_potongan = 1 THEN (kg.nominal * CASE LOWER(kg.satuan)
+                    WHEN \'bulanan\' THEN 1
+                    WHEN \'tahunan\' THEN 1.0/12.0
+                    WHEN \'mingguan\' THEN 4.33
+                    WHEN \'harian\' THEN 22
+                    ELSE 1
+                END) ELSE 0 END),0) AS minus_bln, COALESCE(SUM(CASE WHEN (kg.is_gaji_pokok = 1 OR kg.kode=\'GAJI_POKOK\') THEN (kg.nominal * CASE LOWER(kg.satuan)
+                    WHEN \'bulanan\' THEN 1
+                    WHEN \'tahunan\' THEN 1.0/12.0
+                    WHEN \'mingguan\' THEN 4.33
+                    WHEN \'harian\' THEN 22
+                    ELSE 1
+                END) ELSE 0 END),0) AS gaji_pokok_bln
+FROM `anggota` `a`
+LEFT JOIN `penggajian` `pg` ON `pg`.`id_anggota` = `a`.`id_anggota`
+LEFT JOIN `komponen_gaji` `kg` ON `kg`.`id_komponen_gaji` = `pg`.`id_komponen_gaji`
+GROUP BY `a`.`id_anggota`
+ORDER BY `a`.`id_anggota` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`id_anggota`, `a`.`gelar_depan`, `a`.`nama_depan`, `a`.`nama_belakang`, `a`.`gelar_belakang`, `a`.`jabatan`, `a`.`status_pernikahan`, `a`.`jumlah_anak`, COALESCE(SUM(CASE WHEN kg.is_potongan = 0 THEN (kg.nominal * CASE LOWER(kg.satuan)
+                    WHEN \'bulanan\' THEN 1
+                    WHEN \'tahunan\' THEN 1.0/12.0
+                    WHEN \'mingguan\' THEN 4.33
+                    WHEN \'harian\' THEN 22
+                    ELSE 1
+                END) ELSE 0 END),0) AS plus_bln, COALESCE(SUM(CASE WHEN kg.is_potongan = 1 THEN (kg.nominal * CASE LOWER(kg.satuan)
+                    WHEN \'bulanan\' THEN 1
+                    WHEN \'tahunan\' THEN 1.0/12.0
+                    WHEN \'mingguan\' THEN 4.33
+                    WHEN \'harian\' THEN 22
+                    ELSE 1
+                END) ELSE 0 END),0) AS minus_bln, COALESCE(SUM(CASE WHEN (kg.is_gaji_pokok = 1 OR kg.kode=\'GAJI_POKOK\') THEN (kg.nominal * CASE LOWER(kg.satuan)
+                    WHEN \'bulanan\' THEN 1
+                    WHEN \'tahunan\' THEN 1.0/12.0
+                    WHEN \'mingguan\' THEN 4.33
+                    WHEN \'harian\' THEN 22
+                    ELSE 1
+                END) ELSE 0 END),0) AS gaji_pokok_bln
+FROM `anggota` `a`
+LEFT JOIN `penggajian` `pg` ON `pg`.`id_anggota` = `a`.`id_anggota`
+LEFT JOIN `komponen_gaji` `kg` ON `kg`.`id_komponen_gaji` = `pg`.`id_komponen_gaji`
+GROUP BY `a`.`id_anggota`
+ORDER BY `a`.`id_anggota` ASC', [], false)
+ 5 APPPATH\Controllers\Penggajian.php(49): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Penggajian->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\ci4_uts_proyek3\\public\\index.php')
+ERROR - 2025-10-04 11:13:48 --> mysqli_sql_exception: Unknown column 'kg.kode' in 'field list' in D:\ci4_uts_proyek3\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\ci4_uts_proyek3\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `a`.`id_...', 0)
+#1 D:\ci4_uts_proyek3\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.`id_...')
+#2 D:\ci4_uts_proyek3\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.`id_...')
+#3 D:\ci4_uts_proyek3\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`id_...', Array, false)
+#4 D:\ci4_uts_proyek3\app\Controllers\Penggajian.php(59): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\ci4_uts_proyek3\system\CodeIgniter.php(933): App\Controllers\Penggajian->index()
+#6 D:\ci4_uts_proyek3\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+#7 D:\ci4_uts_proyek3\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\ci4_uts_proyek3\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 D:\ci4_uts_proyek3\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 D:\ci4_uts_proyek3\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 D:\ci4_uts_proyek3\system\rewrite.php(44): require_once('D:\\ci4_uts_proy...')
+#12 {main}
+CRITICAL - 2025-10-04 11:13:48 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'kg.kode' in 'field list'
+[Method: GET, Route: admin/penggajian]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`id_anggota`, `a`.`gelar_depan`, `a`.`nama_depan`, `a`.`nama_belakang`, `a`.`gelar_belakang`, `a`.`jabatan`, `a`.`status_pernikahan`, `a`.`jumlah_anak`, COALESCE(SUM(CASE WHEN LOWER(kg.kategori) <> \'potongan\'
+                                   THEN (kg.nominal * CASE LOWER(kg.satuan)
+                    WHEN \'bulanan\' THEN 1
+                    WHEN \'tahunan\' THEN 1.0/12.0
+                    WHEN \'mingguan\' THEN 4.33
+                    WHEN \'harian\' THEN 22
+                    ELSE 1
+                END) ELSE 0 END),0) AS plus_bln, COALESCE(SUM(CASE WHEN LOWER(kg.kategori) = \'potongan\'
+                                   THEN (kg.nominal * CASE LOWER(kg.satuan)
+                    WHEN \'bulanan\' THEN 1
+                    WHEN \'tahunan\' THEN 1.0/12.0
+                    WHEN \'mingguan\' THEN 4.33
+                    WHEN \'harian\' THEN 22
+                    ELSE 1
+                END) ELSE 0 END),0) AS minus_bln, COALESCE(SUM(CASE WHEN (LOWER(kg.kode) = \'gaji_pokok\'
+                                       OR LOWER(kg.kategori) = \'gaji pokok\')
+                                   THEN (kg.nominal * CASE LOWER(kg.satuan)
+                    WHEN \'bulanan\' THEN 1
+                    WHEN \'tahunan\' THEN 1.0/12.0
+                    WHEN \'mingguan\' THEN 4.33
+                    WHEN \'harian\' THEN 22
+                    ELSE 1
+                END) ELSE 0 END),0) AS gaji_pokok_bln
+FROM `anggota` `a`
+LEFT JOIN `penggajian` `pg` ON `pg`.`id_anggota` = `a`.`id_anggota`
+LEFT JOIN `komponen_gaji` `kg` ON `kg`.`id_komponen_gaji` = `pg`.`id_komponen_gaji`
+GROUP BY `a`.`id_anggota`
+ORDER BY `a`.`id_anggota` ASC', [], false)
+ 2 APPPATH\Controllers\Penggajian.php(59): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Penggajian->index()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\ci4_uts_proyek3\\public\\index.php')
+CRITICAL - 2025-10-04 11:13:48 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'kg.kode' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.`id_anggota`, `a`.`gelar_depan`, `a`.`nama_depan`, `a`.`nama_belakang`, `a`.`gelar_belakang`, `a`.`jabatan`, `a`.`status_pernikahan`, `a`.`jumlah_anak`, COALESCE(SUM(CASE WHEN LOWER(kg.kategori) <> \'potongan\'
+                                   THEN (kg.nominal * CASE LOWER(kg.satuan)
+                    WHEN \'bulanan\' THEN 1
+                    WHEN \'tahunan\' THEN 1.0/12.0
+                    WHEN \'mingguan\' THEN 4.33
+                    WHEN \'harian\' THEN 22
+                    ELSE 1
+                END) ELSE 0 END),0) AS plus_bln, COALESCE(SUM(CASE WHEN LOWER(kg.kategori) = \'potongan\'
+                                   THEN (kg.nominal * CASE LOWER(kg.satuan)
+                    WHEN \'bulanan\' THEN 1
+                    WHEN \'tahunan\' THEN 1.0/12.0
+                    WHEN \'mingguan\' THEN 4.33
+                    WHEN \'harian\' THEN 22
+                    ELSE 1
+                END) ELSE 0 END),0) AS minus_bln, COALESCE(SUM(CASE WHEN (LOWER(kg.kode) = \'gaji_pokok\'
+                                       OR LOWER(kg.kategori) = \'gaji pokok\')
+                                   THEN (kg.nominal * CASE LOWER(kg.satuan)
+                    WHEN \'bulanan\' THEN 1
+                    WHEN \'tahunan\' THEN 1.0/12.0
+                    WHEN \'mingguan\' THEN 4.33
+                    WHEN \'harian\' THEN 22
+                    ELSE 1
+                END) ELSE 0 END),0) AS gaji_pokok_bln
+FROM `anggota` `a`
+LEFT JOIN `penggajian` `pg` ON `pg`.`id_anggota` = `a`.`id_anggota`
+LEFT JOIN `komponen_gaji` `kg` ON `kg`.`id_komponen_gaji` = `pg`.`id_komponen_gaji`
+GROUP BY `a`.`id_anggota`
+ORDER BY `a`.`id_anggota` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.`id_anggota`, `a`.`gelar_depan`, `a`.`nama_depan`, `a`.`nama_belakang`, `a`.`gelar_belakang`, `a`.`jabatan`, `a`.`status_pernikahan`, `a`.`jumlah_anak`, COALESCE(SUM(CASE WHEN LOWER(kg.kategori) <> \'potongan\'
+                                   THEN (kg.nominal * CASE LOWER(kg.satuan)
+                    WHEN \'bulanan\' THEN 1
+                    WHEN \'tahunan\' THEN 1.0/12.0
+                    WHEN \'mingguan\' THEN 4.33
+                    WHEN \'harian\' THEN 22
+                    ELSE 1
+                END) ELSE 0 END),0) AS plus_bln, COALESCE(SUM(CASE WHEN LOWER(kg.kategori) = \'potongan\'
+                                   THEN (kg.nominal * CASE LOWER(kg.satuan)
+                    WHEN \'bulanan\' THEN 1
+                    WHEN \'tahunan\' THEN 1.0/12.0
+                    WHEN \'mingguan\' THEN 4.33
+                    WHEN \'harian\' THEN 22
+                    ELSE 1
+                END) ELSE 0 END),0) AS minus_bln, COALESCE(SUM(CASE WHEN (LOWER(kg.kode) = \'gaji_pokok\'
+                                       OR LOWER(kg.kategori) = \'gaji pokok\')
+                                   THEN (kg.nominal * CASE LOWER(kg.satuan)
+                    WHEN \'bulanan\' THEN 1
+                    WHEN \'tahunan\' THEN 1.0/12.0
+                    WHEN \'mingguan\' THEN 4.33
+                    WHEN \'harian\' THEN 22
+                    ELSE 1
+                END) ELSE 0 END),0) AS gaji_pokok_bln
+FROM `anggota` `a`
+LEFT JOIN `penggajian` `pg` ON `pg`.`id_anggota` = `a`.`id_anggota`
+LEFT JOIN `komponen_gaji` `kg` ON `kg`.`id_komponen_gaji` = `pg`.`id_komponen_gaji`
+GROUP BY `a`.`id_anggota`
+ORDER BY `a`.`id_anggota` ASC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`id_anggota`, `a`.`gelar_depan`, `a`.`nama_depan`, `a`.`nama_belakang`, `a`.`gelar_belakang`, `a`.`jabatan`, `a`.`status_pernikahan`, `a`.`jumlah_anak`, COALESCE(SUM(CASE WHEN LOWER(kg.kategori) <> \'potongan\'
+                                   THEN (kg.nominal * CASE LOWER(kg.satuan)
+                    WHEN \'bulanan\' THEN 1
+                    WHEN \'tahunan\' THEN 1.0/12.0
+                    WHEN \'mingguan\' THEN 4.33
+                    WHEN \'harian\' THEN 22
+                    ELSE 1
+                END) ELSE 0 END),0) AS plus_bln, COALESCE(SUM(CASE WHEN LOWER(kg.kategori) = \'potongan\'
+                                   THEN (kg.nominal * CASE LOWER(kg.satuan)
+                    WHEN \'bulanan\' THEN 1
+                    WHEN \'tahunan\' THEN 1.0/12.0
+                    WHEN \'mingguan\' THEN 4.33
+                    WHEN \'harian\' THEN 22
+                    ELSE 1
+                END) ELSE 0 END),0) AS minus_bln, COALESCE(SUM(CASE WHEN (LOWER(kg.kode) = \'gaji_pokok\'
+                                       OR LOWER(kg.kategori) = \'gaji pokok\')
+                                   THEN (kg.nominal * CASE LOWER(kg.satuan)
+                    WHEN \'bulanan\' THEN 1
+                    WHEN \'tahunan\' THEN 1.0/12.0
+                    WHEN \'mingguan\' THEN 4.33
+                    WHEN \'harian\' THEN 22
+                    ELSE 1
+                END) ELSE 0 END),0) AS gaji_pokok_bln
+FROM `anggota` `a`
+LEFT JOIN `penggajian` `pg` ON `pg`.`id_anggota` = `a`.`id_anggota`
+LEFT JOIN `komponen_gaji` `kg` ON `kg`.`id_komponen_gaji` = `pg`.`id_komponen_gaji`
+GROUP BY `a`.`id_anggota`
+ORDER BY `a`.`id_anggota` ASC', [], false)
+ 4 APPPATH\Controllers\Penggajian.php(59): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Penggajian->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\ci4_uts_proyek3\\public\\index.php')
+CRITICAL - 2025-10-04 11:13:48 --> [Caused by] mysqli_sql_exception: Unknown column 'kg.kode' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `a`.`id_anggota`, `a`.`gelar_depan`, `a`.`nama_depan`, `a`.`nama_belakang`, `a`.`gelar_belakang`, `a`.`jabatan`, `a`.`status_pernikahan`, `a`.`jumlah_anak`, COALESCE(SUM(CASE WHEN LOWER(kg.kategori) <> \'potongan\'
+                                   THEN (kg.nominal * CASE LOWER(kg.satuan)
+                    WHEN \'bulanan\' THEN 1
+                    WHEN \'tahunan\' THEN 1.0/12.0
+                    WHEN \'mingguan\' THEN 4.33
+                    WHEN \'harian\' THEN 22
+                    ELSE 1
+                END) ELSE 0 END),0) AS plus_bln, COALESCE(SUM(CASE WHEN LOWER(kg.kategori) = \'potongan\'
+                                   THEN (kg.nominal * CASE LOWER(kg.satuan)
+                    WHEN \'bulanan\' THEN 1
+                    WHEN \'tahunan\' THEN 1.0/12.0
+                    WHEN \'mingguan\' THEN 4.33
+                    WHEN \'harian\' THEN 22
+                    ELSE 1
+                END) ELSE 0 END),0) AS minus_bln, COALESCE(SUM(CASE WHEN (LOWER(kg.kode) = \'gaji_pokok\'
+                                       OR LOWER(kg.kategori) = \'gaji pokok\')
+                                   THEN (kg.nominal * CASE LOWER(kg.satuan)
+                    WHEN \'bulanan\' THEN 1
+                    WHEN \'tahunan\' THEN 1.0/12.0
+                    WHEN \'mingguan\' THEN 4.33
+                    WHEN \'harian\' THEN 22
+                    ELSE 1
+                END) ELSE 0 END),0) AS gaji_pokok_bln
+FROM `anggota` `a`
+LEFT JOIN `penggajian` `pg` ON `pg`.`id_anggota` = `a`.`id_anggota`
+LEFT JOIN `komponen_gaji` `kg` ON `kg`.`id_komponen_gaji` = `pg`.`id_komponen_gaji`
+GROUP BY `a`.`id_anggota`
+ORDER BY `a`.`id_anggota` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.`id_anggota`, `a`.`gelar_depan`, `a`.`nama_depan`, `a`.`nama_belakang`, `a`.`gelar_belakang`, `a`.`jabatan`, `a`.`status_pernikahan`, `a`.`jumlah_anak`, COALESCE(SUM(CASE WHEN LOWER(kg.kategori) <> \'potongan\'
+                                   THEN (kg.nominal * CASE LOWER(kg.satuan)
+                    WHEN \'bulanan\' THEN 1
+                    WHEN \'tahunan\' THEN 1.0/12.0
+                    WHEN \'mingguan\' THEN 4.33
+                    WHEN \'harian\' THEN 22
+                    ELSE 1
+                END) ELSE 0 END),0) AS plus_bln, COALESCE(SUM(CASE WHEN LOWER(kg.kategori) = \'potongan\'
+                                   THEN (kg.nominal * CASE LOWER(kg.satuan)
+                    WHEN \'bulanan\' THEN 1
+                    WHEN \'tahunan\' THEN 1.0/12.0
+                    WHEN \'mingguan\' THEN 4.33
+                    WHEN \'harian\' THEN 22
+                    ELSE 1
+                END) ELSE 0 END),0) AS minus_bln, COALESCE(SUM(CASE WHEN (LOWER(kg.kode) = \'gaji_pokok\'
+                                       OR LOWER(kg.kategori) = \'gaji pokok\')
+                                   THEN (kg.nominal * CASE LOWER(kg.satuan)
+                    WHEN \'bulanan\' THEN 1
+                    WHEN \'tahunan\' THEN 1.0/12.0
+                    WHEN \'mingguan\' THEN 4.33
+                    WHEN \'harian\' THEN 22
+                    ELSE 1
+                END) ELSE 0 END),0) AS gaji_pokok_bln
+FROM `anggota` `a`
+LEFT JOIN `penggajian` `pg` ON `pg`.`id_anggota` = `a`.`id_anggota`
+LEFT JOIN `komponen_gaji` `kg` ON `kg`.`id_komponen_gaji` = `pg`.`id_komponen_gaji`
+GROUP BY `a`.`id_anggota`
+ORDER BY `a`.`id_anggota` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.`id_anggota`, `a`.`gelar_depan`, `a`.`nama_depan`, `a`.`nama_belakang`, `a`.`gelar_belakang`, `a`.`jabatan`, `a`.`status_pernikahan`, `a`.`jumlah_anak`, COALESCE(SUM(CASE WHEN LOWER(kg.kategori) <> \'potongan\'
+                                   THEN (kg.nominal * CASE LOWER(kg.satuan)
+                    WHEN \'bulanan\' THEN 1
+                    WHEN \'tahunan\' THEN 1.0/12.0
+                    WHEN \'mingguan\' THEN 4.33
+                    WHEN \'harian\' THEN 22
+                    ELSE 1
+                END) ELSE 0 END),0) AS plus_bln, COALESCE(SUM(CASE WHEN LOWER(kg.kategori) = \'potongan\'
+                                   THEN (kg.nominal * CASE LOWER(kg.satuan)
+                    WHEN \'bulanan\' THEN 1
+                    WHEN \'tahunan\' THEN 1.0/12.0
+                    WHEN \'mingguan\' THEN 4.33
+                    WHEN \'harian\' THEN 22
+                    ELSE 1
+                END) ELSE 0 END),0) AS minus_bln, COALESCE(SUM(CASE WHEN (LOWER(kg.kode) = \'gaji_pokok\'
+                                       OR LOWER(kg.kategori) = \'gaji pokok\')
+                                   THEN (kg.nominal * CASE LOWER(kg.satuan)
+                    WHEN \'bulanan\' THEN 1
+                    WHEN \'tahunan\' THEN 1.0/12.0
+                    WHEN \'mingguan\' THEN 4.33
+                    WHEN \'harian\' THEN 22
+                    ELSE 1
+                END) ELSE 0 END),0) AS gaji_pokok_bln
+FROM `anggota` `a`
+LEFT JOIN `penggajian` `pg` ON `pg`.`id_anggota` = `a`.`id_anggota`
+LEFT JOIN `komponen_gaji` `kg` ON `kg`.`id_komponen_gaji` = `pg`.`id_komponen_gaji`
+GROUP BY `a`.`id_anggota`
+ORDER BY `a`.`id_anggota` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `a`.`id_anggota`, `a`.`gelar_depan`, `a`.`nama_depan`, `a`.`nama_belakang`, `a`.`gelar_belakang`, `a`.`jabatan`, `a`.`status_pernikahan`, `a`.`jumlah_anak`, COALESCE(SUM(CASE WHEN LOWER(kg.kategori) <> \'potongan\'
+                                   THEN (kg.nominal * CASE LOWER(kg.satuan)
+                    WHEN \'bulanan\' THEN 1
+                    WHEN \'tahunan\' THEN 1.0/12.0
+                    WHEN \'mingguan\' THEN 4.33
+                    WHEN \'harian\' THEN 22
+                    ELSE 1
+                END) ELSE 0 END),0) AS plus_bln, COALESCE(SUM(CASE WHEN LOWER(kg.kategori) = \'potongan\'
+                                   THEN (kg.nominal * CASE LOWER(kg.satuan)
+                    WHEN \'bulanan\' THEN 1
+                    WHEN \'tahunan\' THEN 1.0/12.0
+                    WHEN \'mingguan\' THEN 4.33
+                    WHEN \'harian\' THEN 22
+                    ELSE 1
+                END) ELSE 0 END),0) AS minus_bln, COALESCE(SUM(CASE WHEN (LOWER(kg.kode) = \'gaji_pokok\'
+                                       OR LOWER(kg.kategori) = \'gaji pokok\')
+                                   THEN (kg.nominal * CASE LOWER(kg.satuan)
+                    WHEN \'bulanan\' THEN 1
+                    WHEN \'tahunan\' THEN 1.0/12.0
+                    WHEN \'mingguan\' THEN 4.33
+                    WHEN \'harian\' THEN 22
+                    ELSE 1
+                END) ELSE 0 END),0) AS gaji_pokok_bln
+FROM `anggota` `a`
+LEFT JOIN `penggajian` `pg` ON `pg`.`id_anggota` = `a`.`id_anggota`
+LEFT JOIN `komponen_gaji` `kg` ON `kg`.`id_komponen_gaji` = `pg`.`id_komponen_gaji`
+GROUP BY `a`.`id_anggota`
+ORDER BY `a`.`id_anggota` ASC', [], false)
+ 5 APPPATH\Controllers\Penggajian.php(59): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Penggajian->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\ci4_uts_proyek3\\public\\index.php')
+DEBUG - 2025-10-04 11:17:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-10-04 11:18:41 --> Error: Call to a member function select() on null
+[Method: GET, Route: admin/penggajian/create]
+in APPPATH\Controllers\Penggajian.php on line 118.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Penggajian->create()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggajian))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\ci4_uts_proyek3\\public\\index.php')
+DEBUG - 2025-10-04 11:21:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-04 11:21:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-04 11:21:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-04 11:21:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-04 11:21:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-04 11:21:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-04 11:22:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-04 11:45:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-04 11:45:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-04 11:45:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-04 11:45:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
