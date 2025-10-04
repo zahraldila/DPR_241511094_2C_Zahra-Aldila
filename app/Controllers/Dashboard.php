@@ -24,8 +24,8 @@ class Dashboard extends BaseController
         if (class_exists(\App\Models\KomponenModel::class)) {
             $stats['komponen'] = (new \App\Models\KomponenModel())->countAllResults();
         }
-        if (class_exists(\App\Models\PenggajianModel::class)) {
-            $stats['penggajian'] = (new \App\Models\PenggajianModel())->countAllResults();
+        if (class_exists(\App\Models\PenggajianListModel::class)) {
+            $stats['penggajian'] = (new \App\Models\PenggajianListModel())->countAllResults();
         }
     
         return view('admin/dashboard', [
