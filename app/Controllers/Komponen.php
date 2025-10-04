@@ -26,19 +26,26 @@ class Komponen extends BaseController
     // Form tambah
     public function create()
     {
-        return view('admin/komponen/create', [
-            'title' => 'Tambah Komponen Gaji'
-        ]);
+        return view('admin/komponen/create', ['title'=>'Tambah Komponen Gaji']);
     }
 
-    // Simpan data
     public function store()
     {
-        $data = $this->request->getPost([
-            'nama_komponen', 'kategori', 'jabatan', 'nominal', 'satuan'
-        ]);
+        $rules = [
+            'nama_komponen' => 'required|min_length[3]',
+            'kategori'      => 'required',
+            'jabatan'       => 'required',
+            'nominal'       => 'required|decimal|greater_than_equal_to[0]',
+            'satuan'        => 'required',
+        ];
+        if (! $this->validate($rules)) {
+            return redirect()->back()->withInput()->with('error', 'Periksa kembali input kamu.');
+        }
 
-        $this->komponen->insert($data);
-        return redirect()->to('/admin/komponen')->with('message', 'Komponen berhasil ditambahkan.');
+        $data = $this->request->getPost(['nama_komponen','kategori','jabatan','nominal','satuan']);
+        (new \App\Models\KomponenModel())->insert($data);
+
+        return redirect()->to('/admin/komponen')->with('message','Komponen berhasil ditambahkan.');
     }
+
 }

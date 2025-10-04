@@ -6,13 +6,6 @@
   <a class="btn btn-primary" href="<?= site_url('admin/komponen/create') ?>">+ Tambah Komponen</a>
 </div>
 
-<?php if (session()->getFlashdata('message')): ?>
-  <div class="alert alert-success py-2 small"><?= session()->getFlashdata('message') ?></div>
-<?php endif; ?>
-<?php if (session()->getFlashdata('error')): ?>
-  <div class="alert alert-danger py-2 small"><?= session()->getFlashdata('error') ?></div>
-<?php endif; ?>
-
 <div class="table-responsive">
   <table class="table table-striped table-hover mb-0 align-middle">
     <thead class="table-light">
